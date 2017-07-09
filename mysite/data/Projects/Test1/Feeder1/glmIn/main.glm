@@ -1,0 +1,5230 @@
+clock {
+	timezone PST+8PDT;
+	starttime '2000-01-01 00:00:00';
+	stoptime '2000-01-01 00:00:00';
+};
+
+#set minimum_timestep=60;
+#set profiler=1;
+#set relax_naming_rules=1;
+module generators;
+module tape;
+module residential {
+	implicit_enduses NONE;
+};
+
+module powerflow {
+	solver_method NR;
+	NR_iteration_limit 50;
+};
+
+object overhead_line_conductor {
+	resistance 0.214101;
+	name ACSR_477;
+	geometric_mean_radius 0.026300;
+};
+
+object overhead_line_conductor {
+	resistance 0.072701;
+	name CLP_1500_33KV;
+	geometric_mean_radius 0.044183;
+};
+
+object overhead_line_conductor {
+	resistance 9.280701;
+	name CU_N_#12;
+	geometric_mean_radius 0.002623;
+};
+
+object overhead_line_conductor {
+	resistance 0.138967;
+	name CLP_750_33KV;
+	geometric_mean_radius 0.031137;
+};
+
+object overhead_line_conductor {
+	resistance 0.000000;
+	name ACSR_LINNET_336_4_KCMIL;
+	geometric_mean_radius 0.024400;
+};
+
+object overhead_line_conductor {
+	resistance 14.595001;
+	name CU_N_#14;
+	geometric_mean_radius 0.002083;
+};
+
+object overhead_line_conductor {
+	resistance 2.459000;
+	name ACSR_#4;
+	geometric_mean_radius 0.003300;
+};
+
+object overhead_line_conductor {
+	resistance 0.312013;
+	name CLP_350_5_12_16KV;
+	geometric_mean_radius 0.021152;
+};
+
+object overhead_line_conductor {
+	resistance 0.000000;
+	name ACSR_#6;
+	geometric_mean_radius 0.002400;
+};
+
+object overhead_line_conductor {
+	resistance 1.583001;
+	name ACSR_#2;
+	geometric_mean_radius 0.004600;
+};
+
+object overhead_line_conductor {
+	resistance 0.303039;
+	name 336_TEST;
+	geometric_mean_radius 0.024000;
+};
+
+object overhead_line_conductor {
+	resistance 1.034000;
+	name ACSR_1_0;
+	geometric_mean_radius 0.007100;
+};
+
+object overhead_line_conductor {
+	resistance 0.485579;
+	name CLP_4_0_33KV;
+	geometric_mean_radius 0.016171;
+};
+
+object overhead_line_conductor {
+	resistance 0.975000;
+	name CU_#2;
+	geometric_mean_radius 0.008830;
+};
+
+object overhead_line_conductor {
+	resistance 0.158100;
+	name ACSR_653;
+	geometric_mean_radius 0.030842;
+};
+
+object overhead_line_conductor {
+	resistance 1.543374;
+	name CLP_#2_5_12_16KV;
+	geometric_mean_radius 0.008561;
+};
+
+object overhead_line_conductor {
+	resistance 0.000000;
+	name ACSR_PENGUIN_4_0_AWG;
+	geometric_mean_radius 0.008140;
+};
+
+object overhead_line_conductor {
+	resistance 0.770449;
+	name CU_#1;
+	geometric_mean_radius 0.009919;
+};
+
+object overhead_line_conductor {
+	resistance 0.105560;
+	name CLP_1000_12_16KV;
+	geometric_mean_radius 0.035930;
+};
+
+object overhead_line_conductor {
+	resistance 1.549999;
+	name CU_#4;
+	geometric_mean_radius 0.007000;
+};
+
+object overhead_line_conductor {
+	resistance 3.840901;
+	name CU_#8;
+	geometric_mean_radius 0.004170;
+};
+
+object overhead_line_conductor {
+	resistance 2.400000;
+	name CW_6A_COPPERWELD;
+	geometric_mean_radius 0.004790;
+};
+
+object overhead_line_conductor {
+	resistance 2.417000;
+	name CU_#6;
+	geometric_mean_radius 0.005260;
+};
+
+object overhead_line_conductor {
+	resistance 0.486600;
+	name CU_2_0;
+	geometric_mean_radius 0.012510;
+};
+
+object overhead_line_conductor {
+	resistance 0.573000;
+	name ACSR_4_0;
+	geometric_mean_radius 0.010500;
+};
+
+object overhead_line_conductor {
+	resistance 0.843000;
+	name ACSR_2_0;
+	geometric_mean_radius 0.007700;
+};
+
+object overhead_line_conductor {
+	resistance 0.386980;
+	name CU_3_0;
+	geometric_mean_radius 0.014040;
+};
+
+object overhead_line_conductor {
+	resistance 0.974947;
+	name CLP_1_0_5_12_16KV;
+	geometric_mean_radius 0.011433;
+};
+
+object overhead_line_conductor {
+	resistance 0.306701;
+	name CU_4_0;
+	geometric_mean_radius 0.015770;
+};
+
+object overhead_line_conductor {
+	resistance 0.613701;
+	name CU_1_0;
+	geometric_mean_radius 0.011140;
+};
+
+object overhead_line_conductor {
+	resistance 0.302700;
+	name ACSR_336;
+	geometric_mean_radius 0.022100;
+};
+
+object overhead_line_conductor {
+	resistance 0.000000;
+	name NONE;
+	geometric_mean_radius 0.028999;
+};
+
+object overhead_line_conductor {
+	resistance 0.138967;
+	name CLP_750_5_12_16KV;
+	geometric_mean_radius 0.031137;
+};
+
+object overhead_line_conductor {
+	resistance 0.196018;
+	name DEFAULT;
+	geometric_mean_radius 0.028999;
+};
+
+object overhead_line_conductor {
+	resistance 0.108800;
+	name ACSR_954;
+	geometric_mean_radius 0.038083;
+};
+
+object overhead_line_conductor {
+	resistance 2.010000;
+	name AW_3C_7#6_ALUMOWELD;
+	geometric_mean_radius 0.000018;
+};
+
+object overhead_line_conductor {
+	resistance 3.820000;
+	name CW_8A_COPPERWELD;
+	geometric_mean_radius 0.003940;
+};
+
+object underground_line_conductor {
+	name CLP_3C_#2_5_12_16KVcond;
+	conductor_resistance 1.1096490000000001e+00;
+	neutral_gmr 0.0208;
+	outer_diameter 2.2193000000000001e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name CLP_3C_750_5_12_16KVcond;
+	conductor_resistance 1.2452700000000000e-01;
+	neutral_gmr 0.0208;
+	outer_diameter 4.1878000000000000e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name DEFAULTcond;
+	conductor_resistance 8.8234999999999994e-02;
+	neutral_gmr 7.26433333333;
+	outer_diameter 2.9792999999999999e+01;
+	neutral_strands 7;
+	neutral_resistance 14.872;
+	neutral_diameter 2.1792999999999999e+01;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name CLP_3C_350_5_12_16KVcond;
+	conductor_resistance 2.2119600000000000e-01;
+	neutral_gmr 0.0208;
+	outer_diameter 3.2225999999999999e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name BUScond;
+	conductor_resistance 0.0000000000000000e+00;
+	neutral_gmr 3.894638;
+	outer_diameter 2.2193000000000001e+01;
+	neutral_strands 7;
+	neutral_resistance 14.872;
+	neutral_diameter 1.1683914000000000e+01;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name CLP_3C_1000_5_12_16KVcond;
+	conductor_resistance 9.5686999999999994e-02;
+	neutral_gmr 0.0208;
+	outer_diameter 4.6450000000000003e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name CLP_3C_1_0_5_12_16KVcond;
+	conductor_resistance 7.0483700000000005e-01;
+	neutral_gmr 0.0208;
+	outer_diameter 2.4225000000000001e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name CLP_1C_1000_5_12_16KVcond;
+	conductor_resistance 3.5327300000000000e-01;
+	neutral_gmr 0.0208;
+	outer_diameter 4.6450000000000003e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object underground_line_conductor {
+	name CLP_1C_#2_5_12_16KVcond;
+	conductor_resistance 1.2968740000000001e+00;
+	neutral_gmr 0.0208;
+	outer_diameter 2.2193000000000001e+01;
+	neutral_strands 10;
+	neutral_resistance 14.872;
+	neutral_diameter 0.0640837;
+	conductor_diameter 2.7000000000000000e+01;
+	conductor_gmr 9.0;
+};
+
+object line_spacing {
+	distance_AN 3.000000;
+	name STANDARD_4Wohsps;
+	distance_CN 6.330000;
+	distance_BC 3.000000;
+	distance_AB 6.330000;
+	distance_BN 3.330000;
+	distance_AC 9.330000;
+};
+
+object line_spacing {
+	distance_AN 40.000000;
+	name 3W_12_16KVohsps;
+	distance_CN 41.073701;
+	distance_BC 3.000000;
+	distance_AB 6.330000;
+	distance_BN 40.497764;
+	distance_AC 9.330000;
+};
+
+object line_spacing {
+	distance_AN 12.300000;
+	name DEFAULTohsps;
+	distance_CN 6.300000;
+	distance_BC 9.300000;
+	distance_AB 9.300000;
+	distance_BN 3.000000;
+	distance_AC 18.600000;
+};
+
+object line_spacing {
+	distance_AN 3.000000;
+	name STANDARD_3W_1Nohsps;
+	distance_CN 6.330000;
+	distance_BC 3.000000;
+	distance_AB 6.330000;
+	distance_BN 3.330000;
+	distance_AC 9.330000;
+};
+
+object line_spacing {
+	distance_AN 3.000000;
+	name 3W_1N_12_16KVohsps;
+	distance_CN 6.330000;
+	distance_BC 3.000000;
+	distance_AB 6.330000;
+	distance_BN 3.330000;
+	distance_AC 9.330000;
+};
+
+object line_spacing {
+	distance_AN 40.000000;
+	name STANDARD_3Wohsps;
+	distance_CN 41.073701;
+	distance_BC 3.000000;
+	distance_AB 6.330000;
+	distance_BN 40.497764;
+	distance_AC 9.330000;
+};
+
+object line_configuration {
+	name DEFAULTconf;
+	spacing DEFAULTohsps;
+	conductor_N ACSR_#6;
+	conductor_A ACSR_#6;
+	conductor_C ACSR_#6;
+	conductor_B ACSR_#6;
+};
+
+object line_configuration {
+	name CU_3C_1_0conf;
+	spacing STANDARD_3Wohsps;
+	conductor_N NONE;
+	conductor_A CU_1_0;
+	conductor_C CU_1_0;
+	conductor_B CU_1_0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_3C_350_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_1C_1000_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_3C_1_0_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name DEFAULTsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_1C_#2_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_3C_#2_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_3C_750_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name BUSsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_spacing {
+	distance_BC 0.5;
+	name CLP_3C_1000_5_12_16KVsps;
+	distance_AB 0.05;
+	distance_AC 1.0;
+};
+
+object line_configuration {
+	name CLP_3C_750_5_12_16KVphABC;
+	spacing CLP_3C_750_5_12_16KVsps;
+	conductor_A CLP_3C_750_5_12_16KVcond;
+	conductor_C CLP_3C_750_5_12_16KVcond;
+	conductor_B CLP_3C_750_5_12_16KVcond;
+};
+
+object line_configuration {
+	spacing CLP_1C_#2_5_12_16KVsps;
+	conductor_A CLP_1C_#2_5_12_16KVcond;
+	name CLP_1C_#2_5_12_16KVphA;
+};
+
+object line_configuration {
+	name CLP_3C_#2_5_12_16KVphABC;
+	spacing CLP_3C_#2_5_12_16KVsps;
+	conductor_A CLP_3C_#2_5_12_16KVcond;
+	conductor_C CLP_3C_#2_5_12_16KVcond;
+	conductor_B CLP_3C_#2_5_12_16KVcond;
+};
+
+object line_configuration {
+	name DEFAULTphABC;
+	spacing DEFAULTsps;
+	conductor_A DEFAULTcond;
+	conductor_C DEFAULTcond;
+	conductor_B DEFAULTcond;
+};
+
+object line_configuration {
+	name BUSphABC;
+	spacing BUSsps;
+	conductor_A BUScond;
+	conductor_C BUScond;
+	conductor_B BUScond;
+};
+
+object line_configuration {
+	name CLP_3C_1000_5_12_16KVphABC;
+	spacing CLP_3C_1000_5_12_16KVsps;
+	conductor_A CLP_3C_1000_5_12_16KVcond;
+	conductor_C CLP_3C_1000_5_12_16KVcond;
+	conductor_B CLP_3C_1000_5_12_16KVcond;
+};
+
+object line_configuration {
+	spacing CLP_1C_1000_5_12_16KVsps;
+	conductor_A CLP_1C_1000_5_12_16KVcond;
+	name CLP_1C_1000_5_12_16KVphA;
+};
+
+object line_configuration {
+	name CLP_3C_1_0_5_12_16KVphABC;
+	spacing CLP_3C_1_0_5_12_16KVsps;
+	conductor_A CLP_3C_1_0_5_12_16KVcond;
+	conductor_C CLP_3C_1_0_5_12_16KVcond;
+	conductor_B CLP_3C_1_0_5_12_16KVcond;
+};
+
+object line_configuration {
+	name CLP_3C_350_5_12_16KVphABC;
+	spacing CLP_3C_350_5_12_16KVsps;
+	conductor_A CLP_3C_350_5_12_16KVcond;
+	conductor_C CLP_3C_350_5_12_16KVcond;
+	conductor_B CLP_3C_350_5_12_16KVcond;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5398623C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5398623B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5398623A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5379641A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5379641B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5379641C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5301146A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5506374B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5075203A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5075203C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5412515B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5301146C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5435787B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5435787C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5301146B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigV5079055C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5161347C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5435787A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5161347A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5301145A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5301145B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5301145C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5312090A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5312090C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5312090B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigV5161137T1B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 2000;
+	power_rating 2000;
+};
+
+object transformer_configuration {
+	powerC_rating 2000;
+	name SPCTconfigV5161137T1C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 2000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5161347B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigV5161137T1A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 2000;
+	power_rating 2000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5336835B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5336835C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5336835A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigB5301147A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 3000;
+	power_rating 3000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5398622A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5398622B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5398622C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5435106C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5435106B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5435106A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigV5079055A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5161135A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 1000;
+	power_rating 1000;
+};
+
+object transformer_configuration {
+	powerC_rating 1000;
+	name SPCTconfigP5161135C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 1000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5365275A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5365275B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5365275C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigV5079055B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5075203B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigV5071124A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5412515C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5412515A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigJ052A_2PTC;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigJ052A_2PTB;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigJ052A_2PTA;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5506374C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5130856A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5130856C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5130856B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5506374A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5510319C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5510319B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5510319A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	powerC_rating 5000;
+	name SPCTconfigP5312089C;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5312089B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5312089A;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerA_rating 5000;
+	power_rating 5000;
+};
+
+object transformer_configuration {
+	name SPCTconfigP5161135B;
+	primary_voltage 7199.55785679;
+	install_type POLETOP;
+	secondary_voltage 120;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	impedance 0.00033+0.0022j;
+	powerB_rating 1000;
+	power_rating 1000;
+};
+
+object meter {
+	phases ABCN;
+	name n09808;
+	bustype SWING;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262176_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ052A_1P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ637A_2_F_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ141A_2P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5336835_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND27301292_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5398622_A_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5510319_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27258606_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261124_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885506_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ052A_2_F_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5130856_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5379641_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n95856923_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ052A_3P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5398622_B_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27258622_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_1_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261290_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases AN;
+	name nV5071124_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME2088_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261598_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5130856_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5312090_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5336835_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_5_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n95856888_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27217557_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ638A_2_F_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME2088_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nBS2418_R_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5301146_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27259957_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND27262276_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ141A_3P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ055A_1P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n95856923_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nBS2418_T_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ055A_2P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases AN;
+	name nB5301147_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5506374_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27216701_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885625_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME2088_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0850_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5301146_F_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_5_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME2088_2_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nV5161137T1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND164886054_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261782_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ637A_3P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5435106_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ638A_1P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS2219_2_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5312090_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27259949_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261132_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ141A_1P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nBS2418_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ638A_3P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ055A_3P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5435787_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885533_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5398622_T_F_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1143_4_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS2219_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5365275_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5510319_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME2088_4_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885524_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5412515_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n11319_F;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261411_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nV5079055_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0862_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS1927_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_1_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1142_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS1927_2_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261419_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases AN;
+	name nB5301147_F_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5312089_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261798_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0862_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND27301268_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5075203_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261790_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885633_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1143_3_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261140_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_5_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1142_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND27301527_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nOS1931_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1142_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261282_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5435106_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885515_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5161347_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261590_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261274_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5398622_B_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27216717_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5365275_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262336_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262356_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME2088_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0862_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5161347_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262386_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1143_3_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1143_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nBS2418_L_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5301145_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5506374_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262336_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS2219_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n95856888_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5412515_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS1927_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27261582_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nJ637A_1P_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262176_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS2219_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27218175_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5398623_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0862_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262386_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS2219_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5161135_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5379641_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1142_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS1927_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5398623_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27259965_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27262356_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5312089_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n164885641_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1143_2_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0850_1_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nPME1143_4_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND164886126_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nGS0491_5_09808_1;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nP5075203_1_T_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name n27216709_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object node {
+	phases ABCN;
+	name nND69081020_09808;
+	nominal_voltage 7199.55785679;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmJ052A_2PTA;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5075203B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmJ052A_2PTC;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmJ052A_2PTB;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5379641B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmV5079055A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5161347B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5336835A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5336835B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5336835C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5379641A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5435106A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5435106C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5435106B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5398623A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5398623C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5398623B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5075203C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5161347A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmV5079055B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5301146C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5301146B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5301146A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmV5161137T1A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmV5161137T1B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmV5161137T1C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmB5301147A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5161135C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5510319B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmV5079055C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5312090C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5312090B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5312090A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5161135B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5161347C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5130856C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5130856B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5130856A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5435787A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5435787C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5398622B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5398622C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5075203A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5398622A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5161135A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5412515A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5412515B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5412515C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5312089A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5312089C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5312089B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5301145B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5301145C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmV5071124A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5301145A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5506374A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5379641C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5506374C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5506374B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5510319A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5365275B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5365275C;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases BS;
+	name ntpmP5435787B;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases AS;
+	name ntpmP5365275A;
+	nominal_voltage 120.0;
+};
+
+object triplex_meter {
+	phases CS;
+	name ntpmP5510319C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 6666.667+5000.000j;
+	name ntpnJ052A_2PTB;
+	parent ntpmJ052A_2PTB;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 6666.667+5000.000j;
+	name ntpnJ052A_2PTC;
+	parent ntpmJ052A_2PTC;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 146666.667+110000.000j;
+	name ntpnP5301145A;
+	parent ntpmP5301145A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 6666.667+5000.000j;
+	name ntpnJ052A_2PTA;
+	parent ntpmJ052A_2PTA;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 325333.333+244000.000j;
+	name ntpnP5435787A;
+	parent ntpmP5435787A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 5533.333+4150.000j;
+	name ntpnV5079055C;
+	parent ntpmV5079055C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 146666.667+110000.000j;
+	name ntpnP5301145B;
+	parent ntpmP5301145B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 5533.333+4150.000j;
+	name ntpnV5079055B;
+	parent ntpmV5079055B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 162666.667+122000.000j;
+	name ntpnP5506374A;
+	parent ntpmP5506374A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 162666.667+122000.000j;
+	name ntpnP5506374B;
+	parent ntpmP5506374B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 23400.000+17550.000j;
+	name ntpnP5435106A;
+	parent ntpmP5435106A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 188000.000+141000.000j;
+	name ntpnP5398622C;
+	parent ntpmP5398622C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 188000.000+141000.000j;
+	name ntpnP5398622B;
+	parent ntpmP5398622B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 188000.000+141000.000j;
+	name ntpnP5398622A;
+	parent ntpmP5398622A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 325333.333+244000.000j;
+	name ntpnP5435787B;
+	parent ntpmP5435787B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 118666.667+89000.000j;
+	name ntpnP5312089B;
+	parent ntpmP5312089B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 23400.000+17550.000j;
+	name ntpnP5435106C;
+	parent ntpmP5435106C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 44800.000+33600.000j;
+	name ntpnP5379641C;
+	parent ntpmP5379641C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 44800.000+33600.000j;
+	name ntpnP5379641B;
+	parent ntpmP5379641B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 44800.000+33600.000j;
+	name ntpnP5379641A;
+	parent ntpmP5379641A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 76000.000+57000.000j;
+	name ntpnP5365275C;
+	parent ntpmP5365275C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 76000.000+57000.000j;
+	name ntpnP5365275B;
+	parent ntpmP5365275B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 76000.000+57000.000j;
+	name ntpnP5365275A;
+	parent ntpmP5365275A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 20000.000+15000.000j;
+	name ntpnV5071124A;
+	parent ntpmV5071124A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 54400.000+40800.000j;
+	name ntpnP5130856B;
+	parent ntpmP5130856B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 54400.000+40800.000j;
+	name ntpnP5130856C;
+	parent ntpmP5130856C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 23400.000+17550.000j;
+	name ntpnP5435106B;
+	parent ntpmP5435106B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 54400.000+40800.000j;
+	name ntpnP5130856A;
+	parent ntpmP5130856A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 666.667+500.000j;
+	name ntpnP5161135A;
+	parent ntpmP5161135A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 666.667+500.000j;
+	name ntpnP5161135B;
+	parent ntpmP5161135B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 666.667+500.000j;
+	name ntpnP5161135C;
+	parent ntpmP5161135C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 146666.667+110000.000j;
+	name ntpnP5301145C;
+	parent ntpmP5301145C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 121333.333+91000.000j;
+	name ntpnP5312090B;
+	parent ntpmP5312090B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 121333.333+91000.000j;
+	name ntpnP5312090C;
+	parent ntpmP5312090C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 121333.333+91000.000j;
+	name ntpnP5312090A;
+	parent ntpmP5312090A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 24400.000+18300.000j;
+	name ntpnP5336835A;
+	parent ntpmP5336835A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 61333.333+46000.000j;
+	name ntpnP5075203C;
+	parent ntpmP5075203C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 24400.000+18300.000j;
+	name ntpnP5336835C;
+	parent ntpmP5336835C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 24400.000+18300.000j;
+	name ntpnP5336835B;
+	parent ntpmP5336835B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 325333.333+244000.000j;
+	name ntpnP5435787C;
+	parent ntpmP5435787C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 153333.333+115000.000j;
+	name ntpnP5510319A;
+	parent ntpmP5510319A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 153333.333+115000.000j;
+	name ntpnP5510319B;
+	parent ntpmP5510319B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 153333.333+115000.000j;
+	name ntpnP5510319C;
+	parent ntpmP5510319C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 138666.667+104000.000j;
+	name ntpnP5398623A;
+	parent ntpmP5398623A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 138666.667+104000.000j;
+	name ntpnP5398623B;
+	parent ntpmP5398623B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 138666.667+104000.000j;
+	name ntpnP5398623C;
+	parent ntpmP5398623C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 70400.000+52800.000j;
+	name ntpnP5412515A;
+	parent ntpmP5412515A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 70400.000+52800.000j;
+	name ntpnP5412515C;
+	parent ntpmP5412515C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 70400.000+52800.000j;
+	name ntpnP5412515B;
+	parent ntpmP5412515B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 1333.333+1000.000j;
+	name ntpnV5161137T1A;
+	parent ntpmV5161137T1A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 162666.667+122000.000j;
+	name ntpnP5506374C;
+	parent ntpmP5506374C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 133333.333+100000.000j;
+	name ntpnP5301146B;
+	parent ntpmP5301146B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 133333.333+100000.000j;
+	name ntpnP5301146C;
+	parent ntpmP5301146C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 133333.333+100000.000j;
+	name ntpnP5301146A;
+	parent ntpmP5301146A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 18800.000+14100.000j;
+	name ntpnP5161347C;
+	parent ntpmP5161347C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 18800.000+14100.000j;
+	name ntpnP5161347B;
+	parent ntpmP5161347B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 18800.000+14100.000j;
+	name ntpnP5161347A;
+	parent ntpmP5161347A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 1333.333+1000.000j;
+	name ntpnV5161137T1C;
+	parent ntpmV5161137T1C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 61333.333+46000.000j;
+	name ntpnP5075203B;
+	parent ntpmP5075203B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases BS;
+	power_12 1333.333+1000.000j;
+	name ntpnV5161137T1B;
+	parent ntpmV5161137T1B;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 118666.667+89000.000j;
+	name ntpnP5312089A;
+	parent ntpmP5312089A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 2400.000+1800.000j;
+	name ntpnB5301147A;
+	parent ntpmB5301147A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases CS;
+	power_12 118666.667+89000.000j;
+	name ntpnP5312089C;
+	parent ntpmP5312089C;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 5533.333+4150.000j;
+	name ntpnV5079055A;
+	parent ntpmV5079055A;
+	nominal_voltage 120.0;
+};
+
+object triplex_node {
+	phases AS;
+	power_12 61333.333+46000.000j;
+	name ntpnP5075203A;
+	parent ntpmP5075203A;
+	nominal_voltage 120.0;
+};
+
+object overhead_line {
+	phases ABC;
+	from nPME1143_2_09808;
+	name PME1143_2_09808$PME1143_3_09808;
+	to nPME1143_3_09808;
+	length 0.003281;
+	configuration DEFAULTconf;
+};
+
+object overhead_line {
+	phases ABC;
+	from nPME1143_4_09808;
+	name PME1143_4_09808$PME1143_1_09808;
+	to nPME1143_1_09808;
+	length 0.003281;
+	configuration DEFAULTconf;
+};
+
+object overhead_line {
+	phases ABC;
+	from n11319_F;
+	name 11319;
+	to nGS0491_5_09808;
+	length 200.000000;
+	configuration CU_3C_1_0conf;
+};
+
+object underground_line {
+	phases ABC;
+	from nND164886126_09808;
+	name ND164886126$ND69081020;
+	to nND69081020_09808;
+	length 780.999974;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ052A_3P_09808;
+	name J052A_3P$P5075203_1;
+	to nP5075203_1_09808;
+	length 202.999993;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME2088_4_09808_1;
+	name PME2088_4$27262336;
+	to n27262336_09808;
+	length 231.999993;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nP5161135_09808;
+	name P5161135$P5435106_1;
+	to nP5435106_1_09808;
+	length 345.999990;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND27301268_09808;
+	name P5301146_2$ND27301268;
+	to nP5301146_2_09808;
+	length 30.000000;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME2088_2_09808_1;
+	name PME2088_2$P5312090_1;
+	to nP5312090_1_09808;
+	length 458.999987;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND164886126_09808;
+	name BS2418_T$ND164886126;
+	to nBS2418_T_09808;
+	length 504.999984;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27262336_09808_1;
+	name 27262336$P5312089_1;
+	to nP5312089_1_09808;
+	length 8.000000;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME1143_1_09808;
+	name PME1143_1$ND27262276;
+	to nND27262276_09808;
+	length 98.999997;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS2219_2_09808;
+	name GS2219_1$GS2219_2;
+	to nGS2219_1_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27216701_09808;
+	name OS1931_1$27216701;
+	to nOS1931_1_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27259965_09808;
+	name 27259965$27259957;
+	to n27259957_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ141A_2P_09808;
+	name J141A_2P$P5398622_A;
+	to nP5398622_A_09808;
+	length 325.999990;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27262356_09808;
+	name 27262356$P5161347_1;
+	to nP5161347_1_09808;
+	length 10.000000;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND27301292_09808;
+	name ND27301292$P5506374_1;
+	to nP5506374_1_09808;
+	length 231.999993;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME2088_2_09808;
+	name PME2088_2$PME2088_4;
+	to nPME2088_4_09808;
+	length 50.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nOS1931_5_09808_1;
+	name OS1931_5$P5365275_1;
+	to nP5365275_1_09808;
+	length 726.999977;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS0862_2_09808;
+	name GS0862_2$GS0491_2;
+	to nGS0491_2_09808;
+	length 1242.999961;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n164885524_09808;
+	name 164885524$164885533;
+	to n164885533_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME1142_2_09808;
+	name PME1142_2$PME1143_2;
+	to nPME1143_2_09808;
+	length 742.999977;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nBS2418_L_09808;
+	name J055A_3P$BS2418_L;
+	to nJ055A_3P_09808;
+	length 377.999987;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nOS1931_2_09808;
+	name GS0862_1$OS1931_2;
+	to nGS0862_1_09808;
+	length 4187.999865;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND69081020_09808;
+	name J052A_1P$ND69081020;
+	to nJ052A_1P_09808;
+	length 102.999997;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27216717_09808;
+	name 27216709$27216717;
+	to n27216709_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS1927_4_09808;
+	name GS1927_4$OS1931_4;
+	to nOS1931_4_09808;
+	length 1051.999967;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261419_09808;
+	name 27261411$27261419;
+	to n27261411_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nV5161137T1_09808;
+	name V5161137T1$P5435787;
+	to nP5435787_09808;
+	length 883.999970;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nOS1931_1_09808_1;
+	name OS1931_1$P5161135;
+	to nP5161135_09808;
+	length 16.000000;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS2219_2_09808_1;
+	name GS2219_2$27262176;
+	to n27262176_09808;
+	length 1920.999938;
+	configuration DEFAULTphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27218175_09808;
+	name 27218175$P5301145;
+	to nP5301145_09808;
+	length 30.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ141A_3P_09808;
+	name J141A_3P$PME1142_4;
+	to nPME1142_4_09808;
+	length 213.999993;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND164886054_09808;
+	name P5130856_1$ND164886054;
+	to nP5130856_1_09808;
+	length 331.999990;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nP5398622_B_09808;
+	name P5398623_1$P5398622_B;
+	to nP5398623_1_09808;
+	length 207.999993;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND27301292_09808;
+	name ND27301292$P5379641_1;
+	to nP5379641_1_09808;
+	length 134.999997;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ637A_3P_09808;
+	name 95856923$J637A_3P;
+	to n95856923_09808;
+	length 8.000000;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME1143_3_09808_1;
+	name PME1143_3$ND27301268;
+	to nND27301268_09808;
+	length 647.999980;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS1927_2_09808_1;
+	name GS1927_2$V5161137T1;
+	to nV5161137T1_09808;
+	length 159.999993;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261124_09808;
+	name 27261124$27261140;
+	to n27261140_09808;
+	length 24.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS0491_1_09808_1;
+	name GS0491_1$27262386;
+	to n27262386_09808;
+	length 460.999987;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS0491_3_09808;
+	name GS0491_3$27258622;
+	to n27258622_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS0862_3_09808;
+	name GS0862_3$ND164886126;
+	to nND164886126_09808;
+	length 84.999997;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS1927_2_09808;
+	name GS1927_2$27261590;
+	to n27261590_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n164885506_09808;
+	name 164885506$164885515;
+	to n164885515_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27216717_09808;
+	name 27216717$OS1931_5;
+	to nOS1931_5_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27258606_09808;
+	name 27258606$GS0491_3;
+	to nGS0491_3_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS2219_3_09808;
+	name GS2219_3$GS1927_1;
+	to nGS1927_1_09808;
+	length 1730.999944;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27258606_09808;
+	name GS0491_1$27258606;
+	to nGS0491_1_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261274_09808;
+	name 27261274$27261290;
+	to n27261290_09808;
+	length 24.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27258622_09808;
+	name 27258622$GS0491_5;
+	to nGS0491_5_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27259949_09808;
+	name 27259949$27259965;
+	to n27259965_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ638A_3P_09808;
+	name J638A_3P$95856888;
+	to n95856888_09808_1;
+	length 171.999993;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n164885633_09808;
+	name 164885641$164885633;
+	to n164885641_09808;
+	length 26.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME2088_1_09808;
+	name PME2088_1$ND27301292;
+	to nND27301292_09808;
+	length 37.000000;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261140_09808;
+	name 27261140$27261132;
+	to n27261132_09808;
+	length 26.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND164886054_09808;
+	name ND164886054$27262356;
+	to n27262356_09808_1;
+	length 436.999987;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ055A_2P_09808;
+	name J055A_2P$ND164886054;
+	to nND164886054_09808;
+	length 609.999980;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nJ055A_1P_09808;
+	name J055A_1P$V5079055;
+	to nV5079055_09808;
+	length 4.000000;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases A;
+	from nGS0491_5_09808_1;
+	name GS0491_5$V5071124;
+	to nV5071124_09808;
+	length 12.000000;
+	configuration CLP_1C_1000_5_12_16KVphA;
+};
+
+object underground_line {
+	phases A;
+	from nND27301268_09808;
+	name B5301147_1$ND27301268;
+	to nB5301147_1_09808;
+	length 256.999990;
+	configuration CLP_1C_#2_5_12_16KVphA;
+};
+
+object underground_line {
+	phases ABC;
+	from n164885515_09808;
+	name 164885515$164885524;
+	to n164885524_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n95856888_09808;
+	name 95856888$P5510319_1;
+	to nP5510319_1_09808;
+	length 9.000000;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME1143_4_09808_1;
+	name PME1143_4$ND27218190;
+	to n27218175_09808;
+	length 475.999984;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27262176_09808_1;
+	name 27262176$P5412515_1;
+	to nP5412515_1_09808;
+	length 20.000000;
+	configuration DEFAULTphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27216709_09808;
+	name 27216701$27216709;
+	to n27216701_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nND69081020_09808;
+	name J141A_1P$ND69081020;
+	to nJ141A_1P_09808;
+	length 1438.999954;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n164885641_09808;
+	name 164885625$164885641;
+	to n164885625_09808;
+	length 24.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nOS1931_3_09808;
+	name OS1931_3$ND27301527;
+	to nND27301527_09808;
+	length 827.999974;
+	configuration CLP_3C_750_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27262386_09808_1;
+	name 27262386$J637A_1P;
+	to nJ637A_1P_09808;
+	length 4.000000;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n09808;
+	name GS2219_4$09808;
+	to nGS2219_4_09808;
+	length 1364.999957;
+	configuration DEFAULTphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261798_09808;
+	name 27261798$27261790;
+	to n27261790_09808;
+	length 26.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261782_09808;
+	name 27261782$27261798;
+	to n27261798_09808;
+	length 24.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n95856923_09808_1;
+	name J638A_1P$95856923;
+	to nJ638A_1P_09808;
+	length 130.999997;
+	configuration CLP_3C_1_0_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261411_09808;
+	name GS2219_2$27261411;
+	to nGS2219_2_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME1143_3_09808;
+	name PME1143_3$PME1143_4;
+	to nPME1143_4_09808;
+	length 50.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261582_09808;
+	name 27261582$GS1927_2;
+	to nGS1927_2_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nGS0862_4_09808;
+	name GS0862_4$GS0850_1;
+	to nGS0850_1_09808;
+	length 540.999984;
+	configuration CLP_3C_1000_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261290_09808;
+	name 27261290$27261282;
+	to n27261282_09808;
+	length 26.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nBS2418_R_09808;
+	name BS2418_R$P5336835_1;
+	to nP5336835_1_09808;
+	length 373.999987;
+	configuration CLP_3C_#2_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27217557_09808;
+	name PME1142_3$27217557;
+	to nPME1142_3_09808;
+	length 50.000000;
+	configuration BUSphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from nPME1142_1_09808;
+	name PME2088_3$PME1142_1;
+	to nPME2088_3_09808;
+	length 1110.999964;
+	configuration CLP_3C_350_5_12_16KVphABC;
+};
+
+object underground_line {
+	phases ABC;
+	from n27261590_09808;
+	name 27261590$27261598;
+	to n27261598_09808;
+	length 25.000000;
+	configuration BUSphABC;
+};
+
+object transformer {
+	phases AS;
+	from nP5301146_F_09808;
+	name SPCTP5301146A;
+	to ntpmP5301146A;
+	configuration SPCTconfigP5301146A;
+};
+
+object transformer {
+	phases AS;
+	from nP5161347_1_T_09808;
+	name SPCTP5161347A;
+	to ntpmP5161347A;
+	configuration SPCTconfigP5161347A;
+};
+
+object transformer {
+	phases CS;
+	from nP5301146_F_09808;
+	name SPCTP5301146C;
+	to ntpmP5301146C;
+	configuration SPCTconfigP5301146C;
+};
+
+object transformer {
+	phases BS;
+	from nP5301146_F_09808;
+	name SPCTP5301146B;
+	to ntpmP5301146B;
+	configuration SPCTconfigP5301146B;
+};
+
+object transformer {
+	phases CS;
+	from nP5161135_09808;
+	name SPCTP5161135C;
+	to ntpmP5161135C;
+	configuration SPCTconfigP5161135C;
+};
+
+object transformer {
+	phases CS;
+	from nP5506374_1_T_09808;
+	name SPCTP5506374C;
+	to ntpmP5506374C;
+	configuration SPCTconfigP5506374C;
+};
+
+object transformer {
+	phases AS;
+	from nP5161135_09808;
+	name SPCTP5161135A;
+	to ntpmP5161135A;
+	configuration SPCTconfigP5161135A;
+};
+
+object transformer {
+	phases AS;
+	from nP5336835_1_T_09808;
+	name SPCTP5336835A;
+	to ntpmP5336835A;
+	configuration SPCTconfigP5336835A;
+};
+
+object transformer {
+	phases CS;
+	from nP5398623_1_T_09808;
+	name SPCTP5398623C;
+	to ntpmP5398623C;
+	configuration SPCTconfigP5398623C;
+};
+
+object transformer {
+	phases BS;
+	from nP5398623_1_T_09808;
+	name SPCTP5398623B;
+	to ntpmP5398623B;
+	configuration SPCTconfigP5398623B;
+};
+
+object transformer {
+	phases AS;
+	from nP5398623_1_T_09808;
+	name SPCTP5398623A;
+	to ntpmP5398623A;
+	configuration SPCTconfigP5398623A;
+};
+
+object transformer {
+	phases CS;
+	from nP5365275_1_T_09808;
+	name SPCTP5365275C;
+	to ntpmP5365275C;
+	configuration SPCTconfigP5365275C;
+};
+
+object transformer {
+	phases BS;
+	from nP5161135_09808;
+	name SPCTP5161135B;
+	to ntpmP5161135B;
+	configuration SPCTconfigP5161135B;
+};
+
+object transformer {
+	phases AS;
+	from nP5379641_1_T_09808;
+	name SPCTP5379641A;
+	to ntpmP5379641A;
+	configuration SPCTconfigP5379641A;
+};
+
+object transformer {
+	phases BS;
+	from nP5379641_1_T_09808;
+	name SPCTP5379641B;
+	to ntpmP5379641B;
+	configuration SPCTconfigP5379641B;
+};
+
+object transformer {
+	phases CS;
+	from nP5379641_1_T_09808;
+	name SPCTP5379641C;
+	to ntpmP5379641C;
+	configuration SPCTconfigP5379641C;
+};
+
+object transformer {
+	phases AS;
+	from nP5312090_1_T_09808;
+	name SPCTP5312090A;
+	to ntpmP5312090A;
+	configuration SPCTconfigP5312090A;
+};
+
+object transformer {
+	phases CS;
+	from nP5336835_1_T_09808;
+	name SPCTP5336835C;
+	to ntpmP5336835C;
+	configuration SPCTconfigP5336835C;
+};
+
+object transformer {
+	phases CS;
+	from nP5312090_1_T_09808;
+	name SPCTP5312090C;
+	to ntpmP5312090C;
+	configuration SPCTconfigP5312090C;
+};
+
+object transformer {
+	phases BS;
+	from nP5312090_1_T_09808;
+	name SPCTP5312090B;
+	to ntpmP5312090B;
+	configuration SPCTconfigP5312090B;
+};
+
+object transformer {
+	phases AS;
+	from nV5071124_09808;
+	name SPCTV5071124A;
+	to ntpmV5071124A;
+	configuration SPCTconfigV5071124A;
+};
+
+object transformer {
+	phases AS;
+	from nP5365275_1_T_09808;
+	name SPCTP5365275A;
+	to ntpmP5365275A;
+	configuration SPCTconfigP5365275A;
+};
+
+object transformer {
+	phases CS;
+	from nP5435787_09808;
+	name SPCTP5435787C;
+	to ntpmP5435787C;
+	configuration SPCTconfigP5435787C;
+};
+
+object transformer {
+	phases AS;
+	from nP5435787_09808;
+	name SPCTP5435787A;
+	to ntpmP5435787A;
+	configuration SPCTconfigP5435787A;
+};
+
+object transformer {
+	phases BS;
+	from nP5161347_1_T_09808;
+	name SPCTP5161347B;
+	to ntpmP5161347B;
+	configuration SPCTconfigP5161347B;
+};
+
+object transformer {
+	phases BS;
+	from nP5506374_1_T_09808;
+	name SPCTP5506374B;
+	to ntpmP5506374B;
+	configuration SPCTconfigP5506374B;
+};
+
+object transformer {
+	phases CS;
+	from nP5161347_1_T_09808;
+	name SPCTP5161347C;
+	to ntpmP5161347C;
+	configuration SPCTconfigP5161347C;
+};
+
+object transformer {
+	phases CS;
+	from nP5510319_1_T_09808;
+	name SPCTP5510319C;
+	to ntpmP5510319C;
+	configuration SPCTconfigP5510319C;
+};
+
+object transformer {
+	phases AS;
+	from nP5510319_1_T_09808;
+	name SPCTP5510319A;
+	to ntpmP5510319A;
+	configuration SPCTconfigP5510319A;
+};
+
+object transformer {
+	phases BS;
+	from nP5412515_1_T_09808;
+	name SPCTP5412515B;
+	to ntpmP5412515B;
+	configuration SPCTconfigP5412515B;
+};
+
+object transformer {
+	phases CS;
+	from nP5435106_1_T_09808;
+	name SPCTP5435106C;
+	to ntpmP5435106C;
+	configuration SPCTconfigP5435106C;
+};
+
+object transformer {
+	phases BS;
+	from nP5435106_1_T_09808;
+	name SPCTP5435106B;
+	to ntpmP5435106B;
+	configuration SPCTconfigP5435106B;
+};
+
+object transformer {
+	phases AS;
+	from nP5435106_1_T_09808;
+	name SPCTP5435106A;
+	to ntpmP5435106A;
+	configuration SPCTconfigP5435106A;
+};
+
+object transformer {
+	phases AS;
+	from nV5079055_09808;
+	name SPCTV5079055A;
+	to ntpmV5079055A;
+	configuration SPCTconfigV5079055A;
+};
+
+object transformer {
+	phases CS;
+	from nV5079055_09808;
+	name SPCTV5079055C;
+	to ntpmV5079055C;
+	configuration SPCTconfigV5079055C;
+};
+
+object transformer {
+	phases BS;
+	from nP5312089_1_T_09808;
+	name SPCTP5312089B;
+	to ntpmP5312089B;
+	configuration SPCTconfigP5312089B;
+};
+
+object transformer {
+	phases AS;
+	from nP5412515_1_T_09808;
+	name SPCTP5412515A;
+	to ntpmP5412515A;
+	configuration SPCTconfigP5412515A;
+};
+
+object transformer {
+	phases BS;
+	from nP5398622_T_F_09808;
+	name SPCTP5398622B;
+	to ntpmP5398622B;
+	configuration SPCTconfigP5398622B;
+};
+
+object transformer {
+	phases BS;
+	from nP5435787_09808;
+	name SPCTP5435787B;
+	to ntpmP5435787B;
+	configuration SPCTconfigP5435787B;
+};
+
+object transformer {
+	phases BS;
+	from nP5510319_1_T_09808;
+	name SPCTP5510319B;
+	to ntpmP5510319B;
+	configuration SPCTconfigP5510319B;
+};
+
+object transformer {
+	phases AS;
+	from nP5506374_1_T_09808;
+	name SPCTP5506374A;
+	to ntpmP5506374A;
+	configuration SPCTconfigP5506374A;
+};
+
+object transformer {
+	phases BS;
+	from nV5161137T1_09808;
+	name SPCTV5161137T1B;
+	to ntpmV5161137T1B;
+	configuration SPCTconfigV5161137T1B;
+};
+
+object transformer {
+	phases CS;
+	from nP5312089_1_T_09808;
+	name SPCTP5312089C;
+	to ntpmP5312089C;
+	configuration SPCTconfigP5312089C;
+};
+
+object transformer {
+	phases AS;
+	from nP5398622_T_F_09808;
+	name SPCTP5398622A;
+	to ntpmP5398622A;
+	configuration SPCTconfigP5398622A;
+};
+
+object transformer {
+	phases AS;
+	from nP5312089_1_T_09808;
+	name SPCTP5312089A;
+	to ntpmP5312089A;
+	configuration SPCTconfigP5312089A;
+};
+
+object transformer {
+	phases CS;
+	from nP5398622_T_F_09808;
+	name SPCTP5398622C;
+	to ntpmP5398622C;
+	configuration SPCTconfigP5398622C;
+};
+
+object transformer {
+	phases AS;
+	from nP5130856_1_T_09808;
+	name SPCTP5130856A;
+	to ntpmP5130856A;
+	configuration SPCTconfigP5130856A;
+};
+
+object transformer {
+	phases CS;
+	from nP5130856_1_T_09808;
+	name SPCTP5130856C;
+	to ntpmP5130856C;
+	configuration SPCTconfigP5130856C;
+};
+
+object transformer {
+	phases BS;
+	from nP5130856_1_T_09808;
+	name SPCTP5130856B;
+	to ntpmP5130856B;
+	configuration SPCTconfigP5130856B;
+};
+
+object transformer {
+	phases CS;
+	from nV5161137T1_09808;
+	name SPCTV5161137T1C;
+	to ntpmV5161137T1C;
+	configuration SPCTconfigV5161137T1C;
+};
+
+object transformer {
+	phases BS;
+	from nP5365275_1_T_09808;
+	name SPCTP5365275B;
+	to ntpmP5365275B;
+	configuration SPCTconfigP5365275B;
+};
+
+object transformer {
+	phases AS;
+	from nP5075203_1_T_09808;
+	name SPCTP5075203A;
+	to ntpmP5075203A;
+	configuration SPCTconfigP5075203A;
+};
+
+object transformer {
+	phases CS;
+	from nP5075203_1_T_09808;
+	name SPCTP5075203C;
+	to ntpmP5075203C;
+	configuration SPCTconfigP5075203C;
+};
+
+object transformer {
+	phases AS;
+	from nV5161137T1_09808;
+	name SPCTV5161137T1A;
+	to ntpmV5161137T1A;
+	configuration SPCTconfigV5161137T1A;
+};
+
+object transformer {
+	phases AS;
+	from nP5301145_09808;
+	name SPCTP5301145A;
+	to ntpmP5301145A;
+	configuration SPCTconfigP5301145A;
+};
+
+object transformer {
+	phases BS;
+	from nP5301145_09808;
+	name SPCTP5301145B;
+	to ntpmP5301145B;
+	configuration SPCTconfigP5301145B;
+};
+
+object transformer {
+	phases CS;
+	from nP5301145_09808;
+	name SPCTP5301145C;
+	to ntpmP5301145C;
+	configuration SPCTconfigP5301145C;
+};
+
+object transformer {
+	phases BS;
+	from nP5075203_1_T_09808;
+	name SPCTP5075203B;
+	to ntpmP5075203B;
+	configuration SPCTconfigP5075203B;
+};
+
+object transformer {
+	phases CS;
+	from nJ052A_2_F_09808;
+	name SPCTJ052A_2PTC;
+	to ntpmJ052A_2PTC;
+	configuration SPCTconfigJ052A_2PTC;
+};
+
+object transformer {
+	phases BS;
+	from nJ052A_2_F_09808;
+	name SPCTJ052A_2PTB;
+	to ntpmJ052A_2PTB;
+	configuration SPCTconfigJ052A_2PTB;
+};
+
+object transformer {
+	phases AS;
+	from nJ052A_2_F_09808;
+	name SPCTJ052A_2PTA;
+	to ntpmJ052A_2PTA;
+	configuration SPCTconfigJ052A_2PTA;
+};
+
+object transformer {
+	phases AS;
+	from nB5301147_F_09808;
+	name SPCTB5301147A;
+	to ntpmB5301147A;
+	configuration SPCTconfigB5301147A;
+};
+
+object transformer {
+	phases BS;
+	from nV5079055_09808;
+	name SPCTV5079055B;
+	to ntpmV5079055B;
+	configuration SPCTconfigV5079055B;
+};
+
+object transformer {
+	phases BS;
+	from nP5336835_1_T_09808;
+	name SPCTP5336835B;
+	to ntpmP5336835B;
+	configuration SPCTconfigP5336835B;
+};
+
+object transformer {
+	phases CS;
+	from nP5412515_1_T_09808;
+	name SPCTP5412515C;
+	to ntpmP5412515C;
+	configuration SPCTconfigP5412515C;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nJ637A_1P_09808;
+	name J637A_1P_09808$27261274_09808_1;
+	phase_C_state CLOSED;
+	to n27261274_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27262336_09808;
+	name 27262336;
+	phase_C_state CLOSED;
+	to n27262336_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27259957_09808;
+	name 27259957_09808$J141A_3P_09808_1;
+	phase_C_state CLOSED;
+	to nJ141A_3P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS0862_1_09808;
+	name GS0862_1_09808$164885506_09808_1;
+	phase_C_state CLOSED;
+	to n164885506_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5301146_2_09808;
+	name P5301146_2;
+	phase_C_state CLOSED;
+	to nP5301146_F_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261140_09808;
+	name 27261140_09808$J052A_2_F_09808_1;
+	phase_C_state CLOSED;
+	to nJ052A_2_F_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS2219_4_09808;
+	name GS2219_4;
+	phase_C_state CLOSED;
+	to n27261419_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5398623_1_09808;
+	name P5398623_1;
+	phase_C_state CLOSED;
+	to nP5398623_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME1142_4_09808;
+	name PME1142_4;
+	phase_C_state CLOSED;
+	to n27217557_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27262356_09808_1;
+	name 27262356;
+	phase_C_state CLOSED;
+	to n27262356_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5379641_1_09808;
+	name P5379641_1;
+	phase_C_state CLOSED;
+	to nP5379641_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS0491_1_09808;
+	name GS0491_1;
+	phase_C_state CLOSED;
+	to nGS0491_1_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nJ055A_3P_09808;
+	name J055A_3P_09808$164885633_09808_1;
+	phase_C_state CLOSED;
+	to n164885633_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nJ638A_1P_09808;
+	name J638A_1P_09808$27261782_09808_1;
+	phase_C_state CLOSED;
+	to n27261782_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS0491_2_09808;
+	name GS0491_2;
+	phase_C_state CLOSED;
+	to n27258606_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS0491_5_09808;
+	name GS0491_5;
+	phase_C_state CLOSED;
+	to nGS0491_5_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27258622_09808;
+	name GS0491_4;
+	phase_C_state CLOSED;
+	to nGS0491_4_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27259965_09808;
+	name 27259965_09808$J141A_2P_09808_1;
+	phase_C_state CLOSED;
+	to nJ141A_2P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nBS2418_T_T_09808;
+	name BS2418_T_T_09808$BS2418_L_0980_1;
+	phase_C_state CLOSED;
+	to nBS2418_L_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n164885625_09808;
+	name 164885625_09808$J055A_1P_09808_1;
+	phase_C_state CLOSED;
+	to nJ055A_1P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nJ052A_1P_09808;
+	name J052A_1P_09808$27261124_09808_1;
+	phase_C_state CLOSED;
+	to n27261124_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27216709_09808;
+	name 27216709_09808$OS1931_3_09808_1;
+	phase_C_state CLOSED;
+	to nOS1931_3_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261132_09808;
+	name 27261132_09808$J052A_3P_09808_1;
+	phase_C_state CLOSED;
+	to nJ052A_3P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261411_09808;
+	name GS2219_3;
+	phase_C_state CLOSED;
+	to nGS2219_3_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS2219_2_09808;
+	name GS2219_2;
+	phase_C_state CLOSED;
+	to nGS2219_2_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nBS2418_T_T_09808;
+	name BS2418_T_T_09808$BS2418_R_0980_1;
+	phase_C_state CLOSED;
+	to nBS2418_R_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME1143_4_09808;
+	name PME1143_4;
+	phase_C_state CLOSED;
+	to nPME1143_4_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nJ141A_1P_09808;
+	name J141A_1P_09808$27259949_09808_1;
+	phase_C_state CLOSED;
+	to n27259949_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27216701_09808;
+	name 27216701_09808$OS1931_2_09808_1;
+	phase_C_state CLOSED;
+	to nOS1931_2_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5398622_A_09808;
+	name P5398622_A;
+	phase_C_state CLOSED;
+	to nP5398622_B_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5365275_1_09808;
+	name P5365275_1;
+	phase_C_state CLOSED;
+	to nP5365275_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME2088_2_09808;
+	name PME2088_2;
+	phase_C_state CLOSED;
+	to nPME2088_2_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME2088_3_09808;
+	name PME2088_3;
+	phase_C_state CLOSED;
+	to nPME2088_2_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME2088_4_09808;
+	name PME2088_4;
+	phase_C_state CLOSED;
+	to nPME2088_4_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n164885524_09808;
+	name 164885524_09808$GS0862_3_09808_1;
+	phase_C_state CLOSED;
+	to nGS0862_3_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME2088_4_09808;
+	name PME2088_4_09808$PME2088_1_0980_1;
+	phase_C_state CLOSED;
+	to nPME2088_1_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nOS1931_5_09808;
+	name OS1931_5;
+	phase_C_state CLOSED;
+	to nOS1931_5_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5412515_1_09808;
+	name P5412515_1;
+	phase_C_state CLOSED;
+	to nP5412515_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5398622_B_T_09808;
+	name P5398622_T;
+	phase_C_state CLOSED;
+	to nP5398622_T_F_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nBS2418_T_09808;
+	name BS2418_T_09808$BS2418_T_T_0980_1;
+	phase_C_state CLOSED;
+	to nBS2418_T_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nOS1931_4_09808;
+	name OS1931_4;
+	phase_C_state CLOSED;
+	to n27216717_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME1142_3_09808;
+	name PME1142_2;
+	phase_C_state CLOSED;
+	to nPME1142_2_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27217557_09808;
+	name PME1142_1;
+	phase_C_state CLOSED;
+	to nPME1142_1_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n164885533_09808;
+	name 164885533_09808$GS0862_4_09808_1;
+	phase_C_state CLOSED;
+	to nGS0862_4_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nPME1143_3_09808;
+	name PME1143_3;
+	phase_C_state CLOSED;
+	to nPME1143_3_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27262176_09808;
+	name 27262176;
+	phase_C_state CLOSED;
+	to n27262176_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5398622_B_T_09808;
+	name P5398622_B;
+	phase_C_state CLOSED;
+	to nP5398622_B_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5312089_1_09808;
+	name P5312089_1;
+	phase_C_state CLOSED;
+	to nP5312089_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS0850_1_09808;
+	name GS0850_1_09808$GS0850_1_T_0980_1;
+	phase_C_state CLOSED;
+	to nGS0850_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nOS1931_1_09808;
+	name OS1931_1_09808$OS1931_1_09808__1;
+	phase_C_state CLOSED;
+	to nOS1931_1_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261598_09808;
+	name GS1927_4;
+	phase_C_state CLOSED;
+	to nGS1927_4_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS1927_1_09808;
+	name GS1927_1_09808$27261582_09808_1;
+	phase_C_state CLOSED;
+	to n27261582_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n95856888_09808_1;
+	name 95856888;
+	phase_C_state CLOSED;
+	to n95856888_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phases A;
+	from nB5301147_1_09808;
+	name B5301147_1;
+	to nB5301147_F_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261290_09808;
+	name 27261290_09808$J637A_2_F_09808_1;
+	phase_C_state CLOSED;
+	to nJ637A_2_F_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27262386_09808;
+	name 27262386;
+	phase_C_state CLOSED;
+	to n27262386_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5336835_1_09808;
+	name P5336835_1;
+	phase_C_state CLOSED;
+	to nP5336835_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5161347_1_09808;
+	name P5161347_1;
+	phase_C_state CLOSED;
+	to nP5161347_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n95856923_09808;
+	name 95856923;
+	phase_C_state CLOSED;
+	to n95856923_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261790_09808;
+	name 27261790_09808$J638A_3P_09808_1;
+	phase_C_state CLOSED;
+	to nJ638A_3P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5130856_1_09808;
+	name P5130856_1;
+	phase_C_state CLOSED;
+	to nP5130856_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5435106_1_09808;
+	name P5435106_1;
+	phase_C_state CLOSED;
+	to nP5435106_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5075203_1_09808;
+	name P5075203_1;
+	phase_C_state CLOSED;
+	to nP5075203_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5506374_1_09808;
+	name P5506374_1;
+	phase_C_state CLOSED;
+	to nP5506374_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5312090_1_09808;
+	name P5312090_1;
+	phase_C_state CLOSED;
+	to nP5312090_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n164885641_09808;
+	name 164885641_09808$J055A_2P_09808_1;
+	phase_C_state CLOSED;
+	to nJ055A_2P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261798_09808;
+	name 27261798_09808$J638A_2_F_09808_1;
+	phase_C_state CLOSED;
+	to nJ638A_2_F_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nP5510319_1_09808;
+	name P5510319_1;
+	phase_C_state CLOSED;
+	to nP5510319_1_T_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from nGS1927_2_09808;
+	name GS1927_2_09808$GS1927_2_09808__1;
+	phase_C_state CLOSED;
+	to nGS1927_2_09808_1;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n164885515_09808;
+	name 164885515_09808$GS0862_2_09808_1;
+	phase_C_state CLOSED;
+	to nGS0862_2_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object switch {
+	phase_B_state CLOSED;
+	phases ABC;
+	from n27261282_09808;
+	name 27261282_09808$J637A_3P_09808_1;
+	phase_C_state CLOSED;
+	to nJ637A_3P_09808;
+	phase_A_state CLOSED;
+	operating_mode BANKED;
+};
+
+object capacitor {
+	control MANUAL;
+	dwell_time 3;
+	name P5301144;
+	parent nND27262276_09808;
+	capacitor_B 600000.0;
+	capacitor_C 600000.0;
+	capacitor_A 600000.0;
+	phases ABC;
+	time_delay 2;
+	nominal_voltage 7199.55785679;
+	cap_nominal_voltage 7199.55785679;
+	control_level INDIVIDUAL;
+	switchC CLOSED;
+	switchB CLOSED;
+	switchA CLOSED;
+};
+
+object meter {
+	name n11320;
+	parent n11319_F;
+};
+
+object battery {
+	battery_state 1.0;
+	use_internal_battery_model TRUE;
+	parent nDESI2inv;
+	round_trip_efficiency 0.01;
+	generator_status ONLINE;
+	state_of_charge 1.0;
+	battery_capacity 100.0;
+	generator_mode SUPPLY_DRIVEN;
+	battery_type LI_ION;
+	name DESI2;
+};
+
+object inverter {
+	discharge_off_threshold 7454;
+	phases BS;
+	four_quadrant_control_mode LOAD_FOLLOWING;
+	name nDESI2inv;
+	parent n11320;
+	generator_status ONLINE;
+	inverter_type FOUR_QUADRANT;
+	max_charge_rate 1.0000000000000000e+02;
+	charge_off_threshold 6148;
+	generator_mode CONSTANT_PQ;
+	rated_power 100.0;
+	charge_lockout_time 60;
+	discharge_lockout_time 60;
+	inverter_efficiency 0.01;
+	max_discharge_rate 1.0000000000000000e+02;
+};
+

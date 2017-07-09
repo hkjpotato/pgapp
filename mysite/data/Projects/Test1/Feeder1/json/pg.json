@@ -1,0 +1,5253 @@
+{
+    "344": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5398622A"
+    }, 
+    "0": {
+        "timezone": "PST+8PDT", 
+        "stoptime": "'2000-01-01 00:00:00'", 
+        "starttime": "'2000-01-01 00:00:00'", 
+        "clock": "clock"
+    }, 
+    "346": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5412515A"
+    }, 
+    "347": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5412515B"
+    }, 
+    "340": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5435787C"
+    }, 
+    "341": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5398622B"
+    }, 
+    "342": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5398622C"
+    }, 
+    "343": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5075203A"
+    }, 
+    "348": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5412515C"
+    }, 
+    "349": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5312089A"
+    }, 
+    "595": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS0491_5_09808", 
+        "name": "GS0491_5", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0491_5_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "606": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME1143_4_09808", 
+        "name": "PME1143_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME1143_4_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "594": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS0491_2_09808", 
+        "name": "GS0491_2", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27258606_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "619": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nBS2418_T_09808", 
+        "name": "BS2418_T_09808$BS2418_T_T_0980_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nBS2418_T_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "298": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5075203_1_T_09808"
+    }, 
+    "299": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27216709_09808"
+    }, 
+    "296": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nND164886126_09808"
+    }, 
+    "297": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_5_09808_1"
+    }, 
+    "294": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0850_1_09808"
+    }, 
+    "295": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1143_4_09808"
+    }, 
+    "292": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885641_09808"
+    }, 
+    "293": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1143_2_09808"
+    }, 
+    "290": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262356_09808_1"
+    }, 
+    "291": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5312089_1_09808"
+    }, 
+    "591": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS0491_1_09808", 
+        "name": "GS0491_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0491_1_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "590": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5379641_1_09808", 
+        "name": "P5379641_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5379641_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "593": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nJ638A_1P_09808", 
+        "name": "J638A_1P_09808$27261782_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27261782_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "592": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nJ055A_3P_09808", 
+        "name": "J055A_3P_09808$164885633_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n164885633_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "199": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5435106_1_09808"
+    }, 
+    "198": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ637A_3P_09808"
+    }, 
+    "597": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27259965_09808", 
+        "name": "27259965_09808$J141A_2P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ141A_2P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "596": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27258622_09808", 
+        "name": "GS0491_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0491_4_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "195": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nV5161137T1_09808"
+    }, 
+    "194": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME2088_2_09808_1"
+    }, 
+    "197": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261782_09808"
+    }, 
+    "196": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nND164886054_09808"
+    }, 
+    "191": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0850_1_T_09808"
+    }, 
+    "190": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME2088_4_09808"
+    }, 
+    "193": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_5_09808_1"
+    }, 
+    "192": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5301146_F_09808"
+    }, 
+    "270": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262336_09808_1"
+    }, 
+    "271": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS2219_2_09808"
+    }, 
+    "272": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n95856888_09808"
+    }, 
+    "273": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5412515_1_T_09808"
+    }, 
+    "274": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS1927_4_09808"
+    }, 
+    "275": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261582_09808"
+    }, 
+    "276": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ637A_1P_09808"
+    }, 
+    "277": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262176_09808_1"
+    }, 
+    "278": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS2219_1_09808"
+    }, 
+    "279": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27218175_09808"
+    }, 
+    "524": {
+        "phases": "BS", 
+        "from": "nP5398623_1_T_09808", 
+        "name": "SPCTP5398623B", 
+        "object": "transformer", 
+        "to": "ntpmP5398623B", 
+        "configuration": "SPCTconfigP5398623B"
+    }, 
+    "525": {
+        "phases": "AS", 
+        "from": "nP5398623_1_T_09808", 
+        "name": "SPCTP5398623A", 
+        "object": "transformer", 
+        "to": "ntpmP5398623A", 
+        "configuration": "SPCTconfigP5398623A"
+    }, 
+    "526": {
+        "phases": "CS", 
+        "from": "nP5365275_1_T_09808", 
+        "name": "SPCTP5365275C", 
+        "object": "transformer", 
+        "to": "ntpmP5365275C", 
+        "configuration": "SPCTconfigP5365275C"
+    }, 
+    "527": {
+        "phases": "BS", 
+        "from": "nP5161135_09808", 
+        "name": "SPCTP5161135B", 
+        "object": "transformer", 
+        "to": "ntpmP5161135B", 
+        "configuration": "SPCTconfigP5161135B"
+    }, 
+    "520": {
+        "phases": "CS", 
+        "from": "nP5506374_1_T_09808", 
+        "name": "SPCTP5506374C", 
+        "object": "transformer", 
+        "to": "ntpmP5506374C", 
+        "configuration": "SPCTconfigP5506374C"
+    }, 
+    "521": {
+        "phases": "AS", 
+        "from": "nP5161135_09808", 
+        "name": "SPCTP5161135A", 
+        "object": "transformer", 
+        "to": "ntpmP5161135A", 
+        "configuration": "SPCTconfigP5161135A"
+    }, 
+    "522": {
+        "phases": "AS", 
+        "from": "nP5336835_1_T_09808", 
+        "name": "SPCTP5336835A", 
+        "object": "transformer", 
+        "to": "ntpmP5336835A", 
+        "configuration": "SPCTconfigP5336835A"
+    }, 
+    "523": {
+        "phases": "CS", 
+        "from": "nP5398623_1_T_09808", 
+        "name": "SPCTP5398623C", 
+        "object": "transformer", 
+        "to": "ntpmP5398623C", 
+        "configuration": "SPCTconfigP5398623C"
+    }, 
+    "599": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n164885625_09808", 
+        "name": "164885625_09808$J055A_1P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ055A_1P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "528": {
+        "phases": "AS", 
+        "from": "nP5379641_1_T_09808", 
+        "name": "SPCTP5379641A", 
+        "object": "transformer", 
+        "to": "ntpmP5379641A", 
+        "configuration": "SPCTconfigP5379641A"
+    }, 
+    "529": {
+        "phases": "BS", 
+        "from": "nP5379641_1_T_09808", 
+        "name": "SPCTP5379641B", 
+        "object": "transformer", 
+        "to": "ntpmP5379641B", 
+        "configuration": "SPCTconfigP5379641B"
+    }, 
+    "449": {
+        "phases": "ABC", 
+        "from": "nPME2088_2_09808", 
+        "name": "PME2088_2$PME2088_4", 
+        "object": "underground_line", 
+        "to": "nPME2088_4_09808", 
+        "length": "50.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "448": {
+        "phases": "ABC", 
+        "from": "nND27301292_09808", 
+        "name": "ND27301292$P5506374_1", 
+        "object": "underground_line", 
+        "to": "nP5506374_1_09808", 
+        "length": "231.999993", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "443": {
+        "phases": "ABC", 
+        "from": "nGS2219_2_09808", 
+        "name": "GS2219_1$GS2219_2", 
+        "object": "underground_line", 
+        "to": "nGS2219_1_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "442": {
+        "phases": "ABC", 
+        "from": "nPME1143_1_09808", 
+        "name": "PME1143_1$ND27262276", 
+        "object": "underground_line", 
+        "to": "nND27262276_09808", 
+        "length": "98.999997", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "441": {
+        "phases": "ABC", 
+        "from": "n27262336_09808_1", 
+        "name": "27262336$P5312089_1", 
+        "object": "underground_line", 
+        "to": "nP5312089_1_09808", 
+        "length": "8.000000", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "440": {
+        "phases": "ABC", 
+        "from": "nND164886126_09808", 
+        "name": "BS2418_T$ND164886126", 
+        "object": "underground_line", 
+        "to": "nBS2418_T_09808", 
+        "length": "504.999984", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "447": {
+        "phases": "ABC", 
+        "from": "n27262356_09808", 
+        "name": "27262356$P5161347_1", 
+        "object": "underground_line", 
+        "to": "nP5161347_1_09808", 
+        "length": "10.000000", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "446": {
+        "phases": "ABC", 
+        "from": "nJ141A_2P_09808", 
+        "name": "J141A_2P$P5398622_A", 
+        "object": "underground_line", 
+        "to": "nP5398622_A_09808", 
+        "length": "325.999990", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "445": {
+        "phases": "ABC", 
+        "from": "n27259965_09808", 
+        "name": "27259965$27259957", 
+        "object": "underground_line", 
+        "to": "n27259957_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "444": {
+        "phases": "ABC", 
+        "from": "n27216701_09808", 
+        "name": "OS1931_1$27216701", 
+        "object": "underground_line", 
+        "to": "nOS1931_1_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "108": {
+        "name": "SPCTconfigV5161137T1A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "2000", 
+        "power_rating": "2000"
+    }, 
+    "109": {
+        "name": "SPCTconfigP5336835B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "102": {
+        "name": "SPCTconfigP5312090A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "103": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5312090C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "100": {
+        "name": "SPCTconfigP5301145B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "101": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5301145C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "106": {
+        "powerC_rating": "2000", 
+        "name": "SPCTconfigV5161137T1C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "2000"
+    }, 
+    "107": {
+        "name": "SPCTconfigP5161347B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "104": {
+        "name": "SPCTconfigP5312090B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "105": {
+        "name": "SPCTconfigV5161137T1B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "2000", 
+        "power_rating": "2000"
+    }, 
+    "39": {
+        "geometric_mean_radius": "0.028999", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.000000", 
+        "name": "NONE"
+    }, 
+    "38": {
+        "geometric_mean_radius": "0.022100", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.302700", 
+        "name": "ACSR_336"
+    }, 
+    "33": {
+        "geometric_mean_radius": "0.007700", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.843000", 
+        "name": "ACSR_2_0"
+    }, 
+    "32": {
+        "geometric_mean_radius": "0.010500", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.573000", 
+        "name": "ACSR_4_0"
+    }, 
+    "31": {
+        "geometric_mean_radius": "0.012510", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.486600", 
+        "name": "CU_2_0"
+    }, 
+    "30": {
+        "geometric_mean_radius": "0.005260", 
+        "object": "overhead_line_conductor", 
+        "resistance": "2.417000", 
+        "name": "CU_#6"
+    }, 
+    "37": {
+        "geometric_mean_radius": "0.011140", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.613701", 
+        "name": "CU_1_0"
+    }, 
+    "36": {
+        "geometric_mean_radius": "0.015770", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.306701", 
+        "name": "CU_4_0"
+    }, 
+    "35": {
+        "geometric_mean_radius": "0.011433", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.974947", 
+        "name": "CLP_1_0_5_12_16KV"
+    }, 
+    "34": {
+        "geometric_mean_radius": "0.014040", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.386980", 
+        "name": "CU_3_0"
+    }, 
+    "641": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5435106_1_09808", 
+        "name": "P5435106_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5435106_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "640": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5130856_1_09808", 
+        "name": "P5130856_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5130856_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "643": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5506374_1_09808", 
+        "name": "P5506374_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5506374_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "642": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5075203_1_09808", 
+        "name": "P5075203_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5075203_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "645": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n164885641_09808", 
+        "name": "164885641_09808$J055A_2P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ055A_2P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "644": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5312090_1_09808", 
+        "name": "P5312090_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5312090_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "438": {
+        "phases": "ABC", 
+        "from": "nND27301268_09808", 
+        "name": "P5301146_2$ND27301268", 
+        "object": "underground_line", 
+        "to": "nP5301146_2_09808", 
+        "length": "30.000000", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "439": {
+        "phases": "ABC", 
+        "from": "nPME2088_2_09808_1", 
+        "name": "PME2088_2$P5312090_1", 
+        "object": "underground_line", 
+        "to": "nP5312090_1_09808", 
+        "length": "458.999987", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "436": {
+        "phases": "ABC", 
+        "from": "nPME2088_4_09808_1", 
+        "name": "PME2088_4$27262336", 
+        "object": "underground_line", 
+        "to": "n27262336_09808", 
+        "length": "231.999993", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "437": {
+        "phases": "ABC", 
+        "from": "nP5161135_09808", 
+        "name": "P5161135$P5435106_1", 
+        "object": "underground_line", 
+        "to": "nP5435106_1_09808", 
+        "length": "345.999990", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "434": {
+        "phases": "ABC", 
+        "from": "nND164886126_09808", 
+        "name": "ND164886126$ND69081020", 
+        "object": "underground_line", 
+        "to": "nND69081020_09808", 
+        "length": "780.999974", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "435": {
+        "phases": "ABC", 
+        "from": "nJ052A_3P_09808", 
+        "name": "J052A_3P$P5075203_1", 
+        "object": "underground_line", 
+        "to": "nP5075203_1_09808", 
+        "length": "202.999993", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "432": {
+        "phases": "ABC", 
+        "from": "nPME1143_4_09808", 
+        "name": "PME1143_4_09808$PME1143_1_09808", 
+        "object": "overhead_line", 
+        "to": "nPME1143_1_09808", 
+        "length": "0.003281", 
+        "configuration": "DEFAULTconf"
+    }, 
+    "433": {
+        "phases": "ABC", 
+        "from": "n11319_F", 
+        "name": "11319", 
+        "object": "overhead_line", 
+        "to": "nGS0491_5_09808", 
+        "length": "200.000000", 
+        "configuration": "CU_3C_1_0conf"
+    }, 
+    "430": {
+        "phases": "AS", 
+        "power_12": "61333.333+46000.000j", 
+        "name": "ntpnP5075203A", 
+        "parent": "ntpmP5075203A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "431": {
+        "phases": "ABC", 
+        "from": "nPME1143_2_09808", 
+        "name": "PME1143_2_09808$PME1143_3_09808", 
+        "object": "overhead_line", 
+        "to": "nPME1143_3_09808", 
+        "length": "0.003281", 
+        "configuration": "DEFAULTconf"
+    }, 
+    "339": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5435787A"
+    }, 
+    "338": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5130856A"
+    }, 
+    "335": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5161347C"
+    }, 
+    "334": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5161135B"
+    }, 
+    "337": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5130856B"
+    }, 
+    "336": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5130856C"
+    }, 
+    "331": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5312090C"
+    }, 
+    "330": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5079055C"
+    }, 
+    "333": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5312090A"
+    }, 
+    "332": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5312090B"
+    }, 
+    "345": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5161135A"
+    }, 
+    "6": {
+        "module": "residential", 
+        "implicit_enduses": "NONE"
+    }, 
+    "99": {
+        "name": "SPCTconfigP5301145A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "98": {
+        "name": "SPCTconfigP5161347A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "91": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5301146C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "90": {
+        "name": "SPCTconfigP5412515B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "93": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5435787C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "92": {
+        "name": "SPCTconfigP5435787B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "95": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigV5079055C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "94": {
+        "name": "SPCTconfigP5301146B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "97": {
+        "name": "SPCTconfigP5435787A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "96": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5161347C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "559": {
+        "phases": "AS", 
+        "from": "nP5312089_1_T_09808", 
+        "name": "SPCTP5312089A", 
+        "object": "transformer", 
+        "to": "ntpmP5312089A", 
+        "configuration": "SPCTconfigP5312089A"
+    }, 
+    "558": {
+        "phases": "AS", 
+        "from": "nP5398622_T_F_09808", 
+        "name": "SPCTP5398622A", 
+        "object": "transformer", 
+        "to": "ntpmP5398622A", 
+        "configuration": "SPCTconfigP5398622A"
+    }, 
+    "555": {
+        "phases": "AS", 
+        "from": "nP5506374_1_T_09808", 
+        "name": "SPCTP5506374A", 
+        "object": "transformer", 
+        "to": "ntpmP5506374A", 
+        "configuration": "SPCTconfigP5506374A"
+    }, 
+    "554": {
+        "phases": "BS", 
+        "from": "nP5510319_1_T_09808", 
+        "name": "SPCTP5510319B", 
+        "object": "transformer", 
+        "to": "ntpmP5510319B", 
+        "configuration": "SPCTconfigP5510319B"
+    }, 
+    "557": {
+        "phases": "CS", 
+        "from": "nP5312089_1_T_09808", 
+        "name": "SPCTP5312089C", 
+        "object": "transformer", 
+        "to": "ntpmP5312089C", 
+        "configuration": "SPCTconfigP5312089C"
+    }, 
+    "556": {
+        "phases": "BS", 
+        "from": "nV5161137T1_09808", 
+        "name": "SPCTV5161137T1B", 
+        "object": "transformer", 
+        "to": "ntpmV5161137T1B", 
+        "configuration": "SPCTconfigV5161137T1B"
+    }, 
+    "551": {
+        "phases": "AS", 
+        "from": "nP5412515_1_T_09808", 
+        "name": "SPCTP5412515A", 
+        "object": "transformer", 
+        "to": "ntpmP5412515A", 
+        "configuration": "SPCTconfigP5412515A"
+    }, 
+    "550": {
+        "phases": "BS", 
+        "from": "nP5312089_1_T_09808", 
+        "name": "SPCTP5312089B", 
+        "object": "transformer", 
+        "to": "ntpmP5312089B", 
+        "configuration": "SPCTconfigP5312089B"
+    }, 
+    "553": {
+        "phases": "BS", 
+        "from": "nP5435787_09808", 
+        "name": "SPCTP5435787B", 
+        "object": "transformer", 
+        "to": "ntpmP5435787B", 
+        "configuration": "SPCTconfigP5435787B"
+    }, 
+    "552": {
+        "phases": "BS", 
+        "from": "nP5398622_T_F_09808", 
+        "name": "SPCTP5398622B", 
+        "object": "transformer", 
+        "to": "ntpmP5398622B", 
+        "configuration": "SPCTconfigP5398622B"
+    }, 
+    "238": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5075203_1_09808"
+    }, 
+    "239": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_4_09808"
+    }, 
+    "234": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5312089_1_T_09808"
+    }, 
+    "235": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261798_09808"
+    }, 
+    "236": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0862_2_09808"
+    }, 
+    "237": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nND27301268_09808"
+    }, 
+    "230": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_2_09808"
+    }, 
+    "231": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261419_09808"
+    }, 
+    "232": {
+        "phases": "AN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nB5301147_F_09808"
+    }, 
+    "233": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_3_09808"
+    }, 
+    "1": {
+        "omftype": "#set", 
+        "argument": "minimum_timestep=60"
+    }, 
+    "614": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n164885524_09808", 
+        "name": "164885524_09808$GS0862_3_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0862_3_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "146": {
+        "glmIndex": 146, 
+        "object": "node", 
+        "nominal_voltage": "7900", 
+        "phases": "ABCN", 
+        "name": "n27262176_09808"
+    }, 
+    "147": {
+        "glmIndex": 147, 
+        "object": "node", 
+        "nominal_voltage": "8000", 
+        "phases": "ABCN", 
+        "name": "nJ052A_1P_09808"
+    }, 
+    "144": {
+        "name": "SPCTconfigP5161135B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "1000", 
+        "power_rating": "1000"
+    }, 
+    "145": {
+        "phases": "ABCN", 
+        "object": "meter", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n09808", 
+        "bustype": "SWING"
+    }, 
+    "142": {
+        "name": "SPCTconfigP5312089B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "143": {
+        "name": "SPCTconfigP5312089A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "140": {
+        "name": "SPCTconfigP5510319A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "141": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5312089C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "612": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME2088_3_09808", 
+        "name": "PME2088_3", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME2088_2_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "613": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME2088_4_09808", 
+        "name": "PME2088_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME2088_4_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "610": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5365275_1_09808", 
+        "name": "P5365275_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5365275_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "611": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME2088_2_09808", 
+        "name": "PME2088_2", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME2088_2_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "616": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nOS1931_5_09808", 
+        "name": "OS1931_5", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nOS1931_5_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "617": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5412515_1_09808", 
+        "name": "P5412515_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5412515_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "148": {
+        "glmIndex": 148, 
+        "object": "node", 
+        "nominal_voltage": "7900", 
+        "phases": "ABCN", 
+        "name": "nJ637A_2_F_09808"
+    }, 
+    "149": {
+        "glmIndex": 149, 
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7999", 
+        "name": "nJ141A_2P_09808"
+    }, 
+    "623": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n164885533_09808", 
+        "name": "164885533_09808$GS0862_4_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0862_4_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "622": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27217557_09808", 
+        "name": "PME1142_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME1142_1_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "133": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5506374C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "132": {
+        "name": "SPCTconfigJ052A_2PTA", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "131": {
+        "name": "SPCTconfigJ052A_2PTB", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "130": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigJ052A_2PTC", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "137": {
+        "name": "SPCTconfigP5506374A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "136": {
+        "name": "SPCTconfigP5130856B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "135": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5130856C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "134": {
+        "name": "SPCTconfigP5130856A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "494": {
+        "phases": "ABC", 
+        "from": "n95856888_09808", 
+        "name": "95856888$P5510319_1", 
+        "object": "underground_line", 
+        "to": "nP5510319_1_09808", 
+        "length": "9.000000", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "495": {
+        "phases": "ABC", 
+        "from": "nPME1143_4_09808_1", 
+        "name": "PME1143_4$ND27218190", 
+        "object": "underground_line", 
+        "to": "n27218175_09808", 
+        "length": "475.999984", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "139": {
+        "name": "SPCTconfigP5510319B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "138": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5510319C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "490": {
+        "phases": "ABC", 
+        "from": "nJ055A_1P_09808", 
+        "name": "J055A_1P$V5079055", 
+        "object": "underground_line", 
+        "to": "nV5079055_09808", 
+        "length": "4.000000", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "491": {
+        "phases": "A", 
+        "from": "nGS0491_5_09808_1", 
+        "name": "GS0491_5$V5071124", 
+        "object": "underground_line", 
+        "to": "nV5071124_09808", 
+        "length": "12.000000", 
+        "configuration": "CLP_1C_1000_5_12_16KVphA"
+    }, 
+    "492": {
+        "phases": "A", 
+        "from": "nND27301268_09808", 
+        "name": "B5301147_1$ND27301268", 
+        "object": "underground_line", 
+        "to": "nB5301147_1_09808", 
+        "length": "256.999990", 
+        "configuration": "CLP_1C_#2_5_12_16KVphA"
+    }, 
+    "493": {
+        "phases": "ABC", 
+        "from": "n164885515_09808", 
+        "name": "164885515$164885524", 
+        "object": "underground_line", 
+        "to": "n164885524_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "24": {
+        "geometric_mean_radius": "0.008140", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.000000", 
+        "name": "ACSR_PENGUIN_4_0_AWG"
+    }, 
+    "25": {
+        "geometric_mean_radius": "0.009919", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.770449", 
+        "name": "CU_#1"
+    }, 
+    "26": {
+        "geometric_mean_radius": "0.035930", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.105560", 
+        "name": "CLP_1000_12_16KV"
+    }, 
+    "27": {
+        "geometric_mean_radius": "0.007000", 
+        "object": "overhead_line_conductor", 
+        "resistance": "1.549999", 
+        "name": "CU_#4"
+    }, 
+    "20": {
+        "geometric_mean_radius": "0.016171", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.485579", 
+        "name": "CLP_4_0_33KV"
+    }, 
+    "21": {
+        "geometric_mean_radius": "0.008830", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.975000", 
+        "name": "CU_#2"
+    }, 
+    "22": {
+        "geometric_mean_radius": "0.030842", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.158100", 
+        "name": "ACSR_653"
+    }, 
+    "23": {
+        "geometric_mean_radius": "0.008561", 
+        "object": "overhead_line_conductor", 
+        "resistance": "1.543374", 
+        "name": "CLP_#2_5_12_16KV"
+    }, 
+    "28": {
+        "geometric_mean_radius": "0.004170", 
+        "object": "overhead_line_conductor", 
+        "resistance": "3.840901", 
+        "name": "CU_#8"
+    }, 
+    "29": {
+        "geometric_mean_radius": "0.004790", 
+        "object": "overhead_line_conductor", 
+        "resistance": "2.400000", 
+        "name": "CW_6A_COPPERWELD"
+    }, 
+    "407": {
+        "phases": "BS", 
+        "power_12": "153333.333+115000.000j", 
+        "name": "ntpnP5510319B", 
+        "parent": "ntpmP5510319B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "406": {
+        "phases": "AS", 
+        "power_12": "153333.333+115000.000j", 
+        "name": "ntpnP5510319A", 
+        "parent": "ntpmP5510319A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "405": {
+        "phases": "CS", 
+        "power_12": "325333.333+244000.000j", 
+        "name": "ntpnP5435787C", 
+        "parent": "ntpmP5435787C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "404": {
+        "phases": "BS", 
+        "power_12": "24400.000+18300.000j", 
+        "name": "ntpnP5336835B", 
+        "parent": "ntpmP5336835B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "403": {
+        "phases": "CS", 
+        "power_12": "24400.000+18300.000j", 
+        "name": "ntpnP5336835C", 
+        "parent": "ntpmP5336835C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "402": {
+        "phases": "CS", 
+        "power_12": "61333.333+46000.000j", 
+        "name": "ntpnP5075203C", 
+        "parent": "ntpmP5075203C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "401": {
+        "phases": "AS", 
+        "power_12": "24400.000+18300.000j", 
+        "name": "ntpnP5336835A", 
+        "parent": "ntpmP5336835A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "400": {
+        "phases": "AS", 
+        "power_12": "121333.333+91000.000j", 
+        "name": "ntpnP5312090A", 
+        "parent": "ntpmP5312090A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "629": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nOS1931_1_09808", 
+        "name": "OS1931_1_09808$OS1931_1_09808__1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nOS1931_1_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "409": {
+        "phases": "AS", 
+        "power_12": "138666.667+104000.000j", 
+        "name": "ntpnP5398623A", 
+        "parent": "ntpmP5398623A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "408": {
+        "phases": "CS", 
+        "power_12": "153333.333+115000.000j", 
+        "name": "ntpnP5510319C", 
+        "parent": "ntpmP5510319C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "628": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS0850_1_09808", 
+        "name": "GS0850_1_09808$GS0850_1_T_0980_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0850_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "379": {
+        "phases": "AS", 
+        "power_12": "188000.000+141000.000j", 
+        "name": "ntpnP5398622A", 
+        "parent": "ntpmP5398622A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "378": {
+        "phases": "BS", 
+        "power_12": "188000.000+141000.000j", 
+        "name": "ntpnP5398622B", 
+        "parent": "ntpmP5398622B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "371": {
+        "phases": "CS", 
+        "power_12": "5533.333+4150.000j", 
+        "name": "ntpnV5079055C", 
+        "parent": "ntpmV5079055C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "370": {
+        "phases": "AS", 
+        "power_12": "325333.333+244000.000j", 
+        "name": "ntpnP5435787A", 
+        "parent": "ntpmP5435787A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "373": {
+        "phases": "BS", 
+        "power_12": "5533.333+4150.000j", 
+        "name": "ntpnV5079055B", 
+        "parent": "ntpmV5079055B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "372": {
+        "phases": "BS", 
+        "power_12": "146666.667+110000.000j", 
+        "name": "ntpnP5301145B", 
+        "parent": "ntpmP5301145B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "375": {
+        "phases": "BS", 
+        "power_12": "162666.667+122000.000j", 
+        "name": "ntpnP5506374B", 
+        "parent": "ntpmP5506374B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "374": {
+        "phases": "AS", 
+        "power_12": "162666.667+122000.000j", 
+        "name": "ntpnP5506374A", 
+        "parent": "ntpmP5506374A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "377": {
+        "phases": "CS", 
+        "power_12": "188000.000+141000.000j", 
+        "name": "ntpnP5398622C", 
+        "parent": "ntpmP5398622C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "376": {
+        "phases": "AS", 
+        "power_12": "23400.000+17550.000j", 
+        "name": "ntpnP5435106A", 
+        "parent": "ntpmP5435106A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "618": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5398622_B_T_09808", 
+        "name": "P5398622_T", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5398622_T_F_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "393": {
+        "phases": "AS", 
+        "power_12": "54400.000+40800.000j", 
+        "name": "ntpnP5130856A", 
+        "parent": "ntpmP5130856A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "392": {
+        "phases": "BS", 
+        "power_12": "23400.000+17550.000j", 
+        "name": "ntpnP5435106B", 
+        "parent": "ntpmP5435106B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "88": {
+        "name": "SPCTconfigP5075203A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "89": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5075203C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "397": {
+        "phases": "CS", 
+        "power_12": "146666.667+110000.000j", 
+        "name": "ntpnP5301145C", 
+        "parent": "ntpmP5301145C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "396": {
+        "phases": "CS", 
+        "power_12": "666.667+500.000j", 
+        "name": "ntpnP5161135C", 
+        "parent": "ntpmP5161135C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "395": {
+        "phases": "BS", 
+        "power_12": "666.667+500.000j", 
+        "name": "ntpnP5161135B", 
+        "parent": "ntpmP5161135B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "394": {
+        "phases": "AS", 
+        "power_12": "666.667+500.000j", 
+        "name": "ntpnP5161135A", 
+        "parent": "ntpmP5161135A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "82": {
+        "name": "SPCTconfigP5398623A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "83": {
+        "name": "SPCTconfigP5379641A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "80": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5398623C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "81": {
+        "name": "SPCTconfigP5398623B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "86": {
+        "name": "SPCTconfigP5301146A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "87": {
+        "name": "SPCTconfigP5506374B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "84": {
+        "name": "SPCTconfigP5379641B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "85": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5379641C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "7": {
+        "solver_method": "NR", 
+        "NR_iteration_limit": "50", 
+        "module": "powerflow"
+    }, 
+    "601": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27216709_09808", 
+        "name": "27216709_09808$OS1931_3_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nOS1931_3_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "607": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nJ141A_1P_09808", 
+        "name": "J141A_1P_09808$27259949_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27259949_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "586": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS2219_4_09808", 
+        "name": "GS2219_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27261419_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "587": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5398623_1_09808", 
+        "name": "P5398623_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5398623_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "584": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5301146_2_09808", 
+        "name": "P5301146_2", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5301146_F_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "585": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261140_09808", 
+        "name": "27261140_09808$J052A_2_F_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ052A_2_F_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "582": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27259957_09808", 
+        "name": "27259957_09808$J141A_3P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ141A_3P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "583": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS0862_1_09808", 
+        "name": "GS0862_1_09808$164885506_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n164885506_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "580": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nJ637A_1P_09808", 
+        "name": "J637A_1P_09808$27261274_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27261274_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "581": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27262336_09808", 
+        "name": "27262336", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27262336_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "588": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME1142_4_09808", 
+        "name": "PME1142_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27217557_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "589": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27262356_09808_1", 
+        "name": "27262356", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27262356_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "245": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_5_09808"
+    }, 
+    "244": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261140_09808"
+    }, 
+    "247": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nND27301527_09808"
+    }, 
+    "246": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1142_4_09808"
+    }, 
+    "241": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_1_09808"
+    }, 
+    "240": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261790_09808"
+    }, 
+    "243": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1143_3_09808_1"
+    }, 
+    "242": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885633_09808"
+    }, 
+    "615": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME2088_4_09808", 
+        "name": "PME2088_4_09808$PME2088_1_0980_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME2088_1_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "249": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1142_3_09808"
+    }, 
+    "248": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_4_09808"
+    }, 
+    "519": {
+        "phases": "CS", 
+        "from": "nP5161135_09808", 
+        "name": "SPCTP5161135C", 
+        "object": "transformer", 
+        "to": "ntpmP5161135C", 
+        "configuration": "SPCTconfigP5161135C"
+    }, 
+    "518": {
+        "phases": "BS", 
+        "from": "nP5301146_F_09808", 
+        "name": "SPCTP5301146B", 
+        "object": "transformer", 
+        "to": "ntpmP5301146B", 
+        "configuration": "SPCTconfigP5301146B"
+    }, 
+    "511": {
+        "phases": "ABC", 
+        "from": "nBS2418_R_09808", 
+        "name": "BS2418_R$P5336835_1", 
+        "object": "underground_line", 
+        "to": "nP5336835_1_09808", 
+        "length": "373.999987", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "510": {
+        "phases": "ABC", 
+        "from": "n27261290_09808", 
+        "name": "27261290$27261282", 
+        "object": "underground_line", 
+        "to": "n27261282_09808", 
+        "length": "26.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "513": {
+        "phases": "ABC", 
+        "from": "nPME1142_1_09808", 
+        "name": "PME2088_3$PME1142_1", 
+        "object": "underground_line", 
+        "to": "nPME2088_3_09808", 
+        "length": "1110.999964", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "512": {
+        "phases": "ABC", 
+        "from": "n27217557_09808", 
+        "name": "PME1142_3$27217557", 
+        "object": "underground_line", 
+        "to": "nPME1142_3_09808", 
+        "length": "50.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "515": {
+        "phases": "AS", 
+        "from": "nP5301146_F_09808", 
+        "name": "SPCTP5301146A", 
+        "object": "transformer", 
+        "to": "ntpmP5301146A", 
+        "configuration": "SPCTconfigP5301146A"
+    }, 
+    "514": {
+        "phases": "ABC", 
+        "from": "n27261590_09808", 
+        "name": "27261590$27261598", 
+        "object": "underground_line", 
+        "to": "n27261598_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "517": {
+        "phases": "CS", 
+        "from": "nP5301146_F_09808", 
+        "name": "SPCTP5301146C", 
+        "object": "transformer", 
+        "to": "ntpmP5301146C", 
+        "configuration": "SPCTconfigP5301146C"
+    }, 
+    "516": {
+        "phases": "AS", 
+        "from": "nP5161347_1_T_09808", 
+        "name": "SPCTP5161347A", 
+        "object": "transformer", 
+        "to": "ntpmP5161347A", 
+        "configuration": "SPCTconfigP5161347A"
+    }, 
+    "458": {
+        "phases": "ABC", 
+        "from": "nGS1927_4_09808", 
+        "name": "GS1927_4$OS1931_4", 
+        "object": "underground_line", 
+        "to": "nOS1931_4_09808", 
+        "length": "1051.999967", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "459": {
+        "phases": "ABC", 
+        "from": "n27261419_09808", 
+        "name": "27261411$27261419", 
+        "object": "underground_line", 
+        "to": "n27261411_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "621": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME1142_3_09808", 
+        "name": "PME1142_2", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME1142_2_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "620": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nOS1931_4_09808", 
+        "name": "OS1931_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27216717_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "627": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5312089_1_09808", 
+        "name": "P5312089_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5312089_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "626": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5398622_B_T_09808", 
+        "name": "P5398622_B", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5398622_B_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "625": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27262176_09808", 
+        "name": "27262176", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27262176_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "624": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nPME1143_3_09808", 
+        "name": "PME1143_3", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nPME1143_3_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "450": {
+        "phases": "ABC", 
+        "from": "nOS1931_5_09808_1", 
+        "name": "OS1931_5$P5365275_1", 
+        "object": "underground_line", 
+        "to": "nP5365275_1_09808", 
+        "length": "726.999977", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "451": {
+        "phases": "ABC", 
+        "from": "nGS0862_2_09808", 
+        "name": "GS0862_2$GS0491_2", 
+        "object": "underground_line", 
+        "to": "nGS0491_2_09808", 
+        "length": "1242.999961", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "452": {
+        "phases": "ABC", 
+        "from": "n164885524_09808", 
+        "name": "164885524$164885533", 
+        "object": "underground_line", 
+        "to": "n164885533_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "453": {
+        "phases": "ABC", 
+        "from": "nPME1142_2_09808", 
+        "name": "PME1142_2$PME1143_2", 
+        "object": "underground_line", 
+        "to": "nPME1143_2_09808", 
+        "length": "742.999977", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "454": {
+        "phases": "ABC", 
+        "from": "nBS2418_L_09808", 
+        "name": "J055A_3P$BS2418_L", 
+        "object": "underground_line", 
+        "to": "nJ055A_3P_09808", 
+        "length": "377.999987", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "455": {
+        "phases": "ABC", 
+        "from": "nOS1931_2_09808", 
+        "name": "GS0862_1$OS1931_2", 
+        "object": "underground_line", 
+        "to": "nGS0862_1_09808", 
+        "length": "4187.999865", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "456": {
+        "phases": "ABC", 
+        "from": "nND69081020_09808", 
+        "name": "J052A_1P$ND69081020", 
+        "object": "underground_line", 
+        "to": "nJ052A_1P_09808", 
+        "length": "102.999997", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "457": {
+        "phases": "ABC", 
+        "from": "n27216717_09808", 
+        "name": "27216709$27216717", 
+        "object": "underground_line", 
+        "to": "n27216709_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "179": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27259957_09808"
+    }, 
+    "178": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5301146_2_09808"
+    }, 
+    "177": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nBS2418_R_09808"
+    }, 
+    "176": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME2088_2_09808"
+    }, 
+    "175": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ638A_2_F_09808"
+    }, 
+    "174": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27217557_09808"
+    }, 
+    "173": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n95856888_09808_1"
+    }, 
+    "172": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_5_09808"
+    }, 
+    "171": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5336835_1_09808"
+    }, 
+    "170": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5312090_1_T_09808"
+    }, 
+    "654": {
+        "discharge_off_threshold": "7454", 
+        "phases": "BS", 
+        "four_quadrant_control_mode": "LOAD_FOLLOWING", 
+        "name": "nDESI2inv", 
+        "parent": "n11320", 
+        "generator_status": "ONLINE", 
+        "inverter_type": "FOUR_QUADRANT", 
+        "object": "inverter", 
+        "max_charge_rate": "1.0000000000000000e+02", 
+        "charge_off_threshold": "6148", 
+        "generator_mode": "CONSTANT_PQ", 
+        "rated_power": "100.0", 
+        "charge_lockout_time": "60", 
+        "discharge_lockout_time": "60", 
+        "inverter_efficiency": "0.01", 
+        "max_discharge_rate": "1.0000000000000000e+02"
+    }, 
+    "253": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5161347_1_T_09808"
+    }, 
+    "182": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ055A_1P_09808"
+    }, 
+    "183": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n95856923_09808"
+    }, 
+    "180": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nND27262276_09808"
+    }, 
+    "181": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ141A_3P_09808"
+    }, 
+    "186": {
+        "phases": "AN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nB5301147_1_09808"
+    }, 
+    "187": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5506374_1_09808"
+    }, 
+    "184": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nBS2418_T_T_09808"
+    }, 
+    "185": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ055A_2P_09808"
+    }, 
+    "652": {
+        "object": "meter", 
+        "name": "n11320", 
+        "parent": "n11319_F"
+    }, 
+    "188": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27216701_09808"
+    }, 
+    "189": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885625_09808"
+    }, 
+    "653": {
+        "state_of_charge": "1.0", 
+        "battery_state": "1.0", 
+        "use_internal_battery_model": "TRUE", 
+        "parent": "nDESI2inv", 
+        "round_trip_efficiency": "0.01", 
+        "generator_status": "ONLINE", 
+        "object": "battery", 
+        "battery_capacity": "100.0", 
+        "generator_mode": "SUPPLY_DRIVEN", 
+        "battery_type": "LI_ION", 
+        "name": "DESI2"
+    }, 
+    "650": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261282_09808", 
+        "name": "27261282_09808$J637A_3P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ637A_3P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "651": {
+        "control": "MANUAL", 
+        "dwell_time": "3", 
+        "capacitor_A": "600000.0", 
+        "name": "P5301144", 
+        "parent": "nND27262276_09808", 
+        "capacitor_B": "600000.0", 
+        "capacitor_C": "600000.0", 
+        "object": "capacitor", 
+        "phases": "ABC", 
+        "time_delay": "2", 
+        "nominal_voltage": "7199.55785679", 
+        "cap_nominal_voltage": "7199.55785679", 
+        "switchB": "CLOSED", 
+        "switchC": "CLOSED", 
+        "control_level": "INDIVIDUAL", 
+        "switchA": "CLOSED"
+    }, 
+    "11": {
+        "geometric_mean_radius": "0.031137", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.138967", 
+        "name": "CLP_750_33KV"
+    }, 
+    "10": {
+        "geometric_mean_radius": "0.002623", 
+        "object": "overhead_line_conductor", 
+        "resistance": "9.280701", 
+        "name": "CU_N_#12"
+    }, 
+    "13": {
+        "geometric_mean_radius": "0.002083", 
+        "object": "overhead_line_conductor", 
+        "resistance": "14.595001", 
+        "name": "CU_N_#14"
+    }, 
+    "12": {
+        "geometric_mean_radius": "0.024400", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.000000", 
+        "name": "ACSR_LINNET_336_4_KCMIL"
+    }, 
+    "15": {
+        "geometric_mean_radius": "0.021152", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.312013", 
+        "name": "CLP_350_5_12_16KV"
+    }, 
+    "14": {
+        "geometric_mean_radius": "0.003300", 
+        "object": "overhead_line_conductor", 
+        "resistance": "2.459000", 
+        "name": "ACSR_#4"
+    }, 
+    "17": {
+        "geometric_mean_radius": "0.004600", 
+        "object": "overhead_line_conductor", 
+        "resistance": "1.583001", 
+        "name": "ACSR_#2"
+    }, 
+    "16": {
+        "geometric_mean_radius": "0.002400", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.000000", 
+        "name": "ACSR_#6"
+    }, 
+    "19": {
+        "geometric_mean_radius": "0.007100", 
+        "object": "overhead_line_conductor", 
+        "resistance": "1.034000", 
+        "name": "ACSR_1_0"
+    }, 
+    "18": {
+        "geometric_mean_radius": "0.024000", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.303039", 
+        "name": "336_TEST"
+    }, 
+    "62": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_3C_350_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "322": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5301146B"
+    }, 
+    "323": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5301146A"
+    }, 
+    "320": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5079055B"
+    }, 
+    "321": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5301146C"
+    }, 
+    "326": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5161137T1C"
+    }, 
+    "327": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmB5301147A"
+    }, 
+    "324": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5161137T1A"
+    }, 
+    "325": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5161137T1B"
+    }, 
+    "328": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5161135C"
+    }, 
+    "329": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5510319B"
+    }, 
+    "201": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS2219_2_09808_1"
+    }, 
+    "200": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ638A_1P_09808"
+    }, 
+    "203": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27259949_09808"
+    }, 
+    "202": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5312090_1_09808"
+    }, 
+    "205": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ141A_1P_09808"
+    }, 
+    "204": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261132_09808"
+    }, 
+    "207": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ638A_3P_09808"
+    }, 
+    "206": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nBS2418_T_09808"
+    }, 
+    "209": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5435787_09808"
+    }, 
+    "208": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ055A_3P_09808"
+    }, 
+    "77": {
+        "conductor_A": "CLP_1C_1000_5_12_16KVcond", 
+        "object": "line_configuration", 
+        "spacing": "CLP_1C_1000_5_12_16KVsps", 
+        "name": "CLP_1C_1000_5_12_16KVphA"
+    }, 
+    "76": {
+        "name": "CLP_3C_1000_5_12_16KVphABC", 
+        "object": "line_configuration", 
+        "spacing": "CLP_3C_1000_5_12_16KVsps", 
+        "conductor_A": "CLP_3C_1000_5_12_16KVcond", 
+        "conductor_C": "CLP_3C_1000_5_12_16KVcond", 
+        "conductor_B": "CLP_3C_1000_5_12_16KVcond"
+    }, 
+    "75": {
+        "name": "BUSphABC", 
+        "object": "line_configuration", 
+        "spacing": "BUSsps", 
+        "conductor_A": "BUScond", 
+        "conductor_C": "BUScond", 
+        "conductor_B": "BUScond"
+    }, 
+    "74": {
+        "name": "DEFAULTphABC", 
+        "object": "line_configuration", 
+        "spacing": "DEFAULTsps", 
+        "conductor_A": "DEFAULTcond", 
+        "conductor_C": "DEFAULTcond", 
+        "conductor_B": "DEFAULTcond"
+    }, 
+    "73": {
+        "name": "CLP_3C_#2_5_12_16KVphABC", 
+        "object": "line_configuration", 
+        "spacing": "CLP_3C_#2_5_12_16KVsps", 
+        "conductor_A": "CLP_3C_#2_5_12_16KVcond", 
+        "conductor_C": "CLP_3C_#2_5_12_16KVcond", 
+        "conductor_B": "CLP_3C_#2_5_12_16KVcond"
+    }, 
+    "72": {
+        "conductor_A": "CLP_1C_#2_5_12_16KVcond", 
+        "object": "line_configuration", 
+        "spacing": "CLP_1C_#2_5_12_16KVsps", 
+        "name": "CLP_1C_#2_5_12_16KVphA"
+    }, 
+    "71": {
+        "name": "CLP_3C_750_5_12_16KVphABC", 
+        "object": "line_configuration", 
+        "spacing": "CLP_3C_750_5_12_16KVsps", 
+        "conductor_A": "CLP_3C_750_5_12_16KVcond", 
+        "conductor_C": "CLP_3C_750_5_12_16KVcond", 
+        "conductor_B": "CLP_3C_750_5_12_16KVcond"
+    }, 
+    "70": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_3C_1000_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "79": {
+        "name": "CLP_3C_350_5_12_16KVphABC", 
+        "object": "line_configuration", 
+        "spacing": "CLP_3C_350_5_12_16KVsps", 
+        "conductor_A": "CLP_3C_350_5_12_16KVcond", 
+        "conductor_C": "CLP_3C_350_5_12_16KVcond", 
+        "conductor_B": "CLP_3C_350_5_12_16KVcond"
+    }, 
+    "78": {
+        "name": "CLP_3C_1_0_5_12_16KVphABC", 
+        "object": "line_configuration", 
+        "spacing": "CLP_3C_1_0_5_12_16KVsps", 
+        "conductor_A": "CLP_3C_1_0_5_12_16KVcond", 
+        "conductor_C": "CLP_3C_1_0_5_12_16KVcond", 
+        "conductor_B": "CLP_3C_1_0_5_12_16KVcond"
+    }, 
+    "2": {
+        "omftype": "#set", 
+        "argument": "profiler=1"
+    }, 
+    "542": {
+        "phases": "CS", 
+        "from": "nP5510319_1_T_09808", 
+        "name": "SPCTP5510319C", 
+        "object": "transformer", 
+        "to": "ntpmP5510319C", 
+        "configuration": "SPCTconfigP5510319C"
+    }, 
+    "543": {
+        "phases": "AS", 
+        "from": "nP5510319_1_T_09808", 
+        "name": "SPCTP5510319A", 
+        "object": "transformer", 
+        "to": "ntpmP5510319A", 
+        "configuration": "SPCTconfigP5510319A"
+    }, 
+    "540": {
+        "phases": "BS", 
+        "from": "nP5506374_1_T_09808", 
+        "name": "SPCTP5506374B", 
+        "object": "transformer", 
+        "to": "ntpmP5506374B", 
+        "configuration": "SPCTconfigP5506374B"
+    }, 
+    "541": {
+        "phases": "CS", 
+        "from": "nP5161347_1_T_09808", 
+        "name": "SPCTP5161347C", 
+        "object": "transformer", 
+        "to": "ntpmP5161347C", 
+        "configuration": "SPCTconfigP5161347C"
+    }, 
+    "546": {
+        "phases": "BS", 
+        "from": "nP5435106_1_T_09808", 
+        "name": "SPCTP5435106B", 
+        "object": "transformer", 
+        "to": "ntpmP5435106B", 
+        "configuration": "SPCTconfigP5435106B"
+    }, 
+    "547": {
+        "phases": "AS", 
+        "from": "nP5435106_1_T_09808", 
+        "name": "SPCTP5435106A", 
+        "object": "transformer", 
+        "to": "ntpmP5435106A", 
+        "configuration": "SPCTconfigP5435106A"
+    }, 
+    "544": {
+        "phases": "BS", 
+        "from": "nP5412515_1_T_09808", 
+        "name": "SPCTP5412515B", 
+        "object": "transformer", 
+        "to": "ntpmP5412515B", 
+        "configuration": "SPCTconfigP5412515B"
+    }, 
+    "545": {
+        "phases": "CS", 
+        "from": "nP5435106_1_T_09808", 
+        "name": "SPCTP5435106C", 
+        "object": "transformer", 
+        "to": "ntpmP5435106C", 
+        "configuration": "SPCTconfigP5435106C"
+    }, 
+    "8": {
+        "geometric_mean_radius": "0.026300", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.214101", 
+        "name": "ACSR_477"
+    }, 
+    "548": {
+        "phases": "AS", 
+        "from": "nV5079055_09808", 
+        "name": "SPCTV5079055A", 
+        "object": "transformer", 
+        "to": "ntpmV5079055A", 
+        "configuration": "SPCTconfigV5079055A"
+    }, 
+    "549": {
+        "phases": "CS", 
+        "from": "nV5079055_09808", 
+        "name": "SPCTV5079055C", 
+        "object": "transformer", 
+        "to": "ntpmV5079055C", 
+        "configuration": "SPCTconfigV5079055C"
+    }, 
+    "68": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_3C_750_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "598": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nBS2418_T_T_09808", 
+        "name": "BS2418_T_T_09808$BS2418_L_0980_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nBS2418_L_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "120": {
+        "name": "SPCTconfigP5161135A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "1000", 
+        "power_rating": "1000"
+    }, 
+    "121": {
+        "powerC_rating": "1000", 
+        "name": "SPCTconfigP5161135C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "1000"
+    }, 
+    "122": {
+        "name": "SPCTconfigP5365275A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "123": {
+        "name": "SPCTconfigP5365275B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "124": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5365275C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "125": {
+        "name": "SPCTconfigV5079055B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "126": {
+        "name": "SPCTconfigP5075203B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "127": {
+        "name": "SPCTconfigV5071124A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "128": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5412515C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "129": {
+        "name": "SPCTconfigP5412515A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "414": {
+        "phases": "BS", 
+        "power_12": "70400.000+52800.000j", 
+        "name": "ntpnP5412515B", 
+        "parent": "ntpmP5412515B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "415": {
+        "phases": "AS", 
+        "power_12": "1333.333+1000.000j", 
+        "name": "ntpnV5161137T1A", 
+        "parent": "ntpmV5161137T1A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "416": {
+        "phases": "CS", 
+        "power_12": "162666.667+122000.000j", 
+        "name": "ntpnP5506374C", 
+        "parent": "ntpmP5506374C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "417": {
+        "phases": "BS", 
+        "power_12": "133333.333+100000.000j", 
+        "name": "ntpnP5301146B", 
+        "parent": "ntpmP5301146B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "410": {
+        "phases": "BS", 
+        "power_12": "138666.667+104000.000j", 
+        "name": "ntpnP5398623B", 
+        "parent": "ntpmP5398623B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "411": {
+        "phases": "CS", 
+        "power_12": "138666.667+104000.000j", 
+        "name": "ntpnP5398623C", 
+        "parent": "ntpmP5398623C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "412": {
+        "phases": "AS", 
+        "power_12": "70400.000+52800.000j", 
+        "name": "ntpnP5412515A", 
+        "parent": "ntpmP5412515A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "413": {
+        "phases": "CS", 
+        "power_12": "70400.000+52800.000j", 
+        "name": "ntpnP5412515C", 
+        "parent": "ntpmP5412515C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "498": {
+        "phases": "ABC", 
+        "from": "nND69081020_09808", 
+        "name": "J141A_1P$ND69081020", 
+        "object": "underground_line", 
+        "to": "nJ141A_1P_09808", 
+        "length": "1438.999954", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "418": {
+        "phases": "CS", 
+        "power_12": "133333.333+100000.000j", 
+        "name": "ntpnP5301146C", 
+        "parent": "ntpmP5301146C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "419": {
+        "phases": "AS", 
+        "power_12": "133333.333+100000.000j", 
+        "name": "ntpnP5301146A", 
+        "parent": "ntpmP5301146A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "499": {
+        "phases": "ABC", 
+        "from": "n164885641_09808", 
+        "name": "164885625$164885641", 
+        "object": "underground_line", 
+        "to": "n164885625_09808", 
+        "length": "24.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "319": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5161347A"
+    }, 
+    "318": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5075203C"
+    }, 
+    "313": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5435106C"
+    }, 
+    "312": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5435106A"
+    }, 
+    "311": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5379641A"
+    }, 
+    "310": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5336835C"
+    }, 
+    "317": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5398623B"
+    }, 
+    "316": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5398623C"
+    }, 
+    "315": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5398623A"
+    }, 
+    "314": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5435106B"
+    }, 
+    "496": {
+        "phases": "ABC", 
+        "from": "n27262176_09808_1", 
+        "name": "27262176$P5412515_1", 
+        "object": "underground_line", 
+        "to": "nP5412515_1_09808", 
+        "length": "20.000000", 
+        "configuration": "DEFAULTphABC"
+    }, 
+    "497": {
+        "phases": "ABC", 
+        "from": "n27216709_09808", 
+        "name": "27216701$27216709", 
+        "object": "underground_line", 
+        "to": "n27216701_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "3": {
+        "omftype": "#set", 
+        "argument": "relax_naming_rules=1"
+    }, 
+    "368": {
+        "phases": "AS", 
+        "power_12": "146666.667+110000.000j", 
+        "name": "ntpnP5301145A", 
+        "parent": "ntpmP5301145A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "369": {
+        "phases": "AS", 
+        "power_12": "6666.667+5000.000j", 
+        "name": "ntpnJ052A_2PTA", 
+        "parent": "ntpmJ052A_2PTA", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "366": {
+        "phases": "BS", 
+        "power_12": "6666.667+5000.000j", 
+        "name": "ntpnJ052A_2PTB", 
+        "parent": "ntpmJ052A_2PTB", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "367": {
+        "phases": "CS", 
+        "power_12": "6666.667+5000.000j", 
+        "name": "ntpnJ052A_2PTC", 
+        "parent": "ntpmJ052A_2PTC", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "364": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5365275A"
+    }, 
+    "365": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5510319C"
+    }, 
+    "362": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5365275C"
+    }, 
+    "363": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5435787B"
+    }, 
+    "360": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5510319A"
+    }, 
+    "361": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5365275B"
+    }, 
+    "380": {
+        "phases": "BS", 
+        "power_12": "325333.333+244000.000j", 
+        "name": "ntpnP5435787B", 
+        "parent": "ntpmP5435787B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "381": {
+        "phases": "BS", 
+        "power_12": "118666.667+89000.000j", 
+        "name": "ntpnP5312089B", 
+        "parent": "ntpmP5312089B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "382": {
+        "phases": "CS", 
+        "power_12": "23400.000+17550.000j", 
+        "name": "ntpnP5435106C", 
+        "parent": "ntpmP5435106C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "383": {
+        "phases": "CS", 
+        "power_12": "44800.000+33600.000j", 
+        "name": "ntpnP5379641C", 
+        "parent": "ntpmP5379641C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "384": {
+        "phases": "BS", 
+        "power_12": "44800.000+33600.000j", 
+        "name": "ntpnP5379641B", 
+        "parent": "ntpmP5379641B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "385": {
+        "phases": "AS", 
+        "power_12": "44800.000+33600.000j", 
+        "name": "ntpnP5379641A", 
+        "parent": "ntpmP5379641A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "386": {
+        "phases": "CS", 
+        "power_12": "76000.000+57000.000j", 
+        "name": "ntpnP5365275C", 
+        "parent": "ntpmP5365275C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "387": {
+        "phases": "BS", 
+        "power_12": "76000.000+57000.000j", 
+        "name": "ntpnP5365275B", 
+        "parent": "ntpmP5365275B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "388": {
+        "phases": "AS", 
+        "power_12": "76000.000+57000.000j", 
+        "name": "ntpnP5365275A", 
+        "parent": "ntpmP5365275A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "389": {
+        "phases": "AS", 
+        "power_12": "20000.000+15000.000j", 
+        "name": "ntpnV5071124A", 
+        "parent": "ntpmV5071124A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "605": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nBS2418_T_T_09808", 
+        "name": "BS2418_T_T_09808$BS2418_R_0980_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nBS2418_R_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "579": {
+        "phases": "CS", 
+        "from": "nP5412515_1_T_09808", 
+        "name": "SPCTP5412515C", 
+        "object": "transformer", 
+        "to": "ntpmP5412515C", 
+        "configuration": "SPCTconfigP5412515C"
+    }, 
+    "578": {
+        "phases": "BS", 
+        "from": "nP5336835_1_T_09808", 
+        "name": "SPCTP5336835B", 
+        "object": "transformer", 
+        "to": "ntpmP5336835B", 
+        "configuration": "SPCTconfigP5336835B"
+    }, 
+    "604": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS2219_2_09808", 
+        "name": "GS2219_2", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS2219_2_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "573": {
+        "phases": "CS", 
+        "from": "nJ052A_2_F_09808", 
+        "name": "SPCTJ052A_2PTC", 
+        "object": "transformer", 
+        "to": "ntpmJ052A_2PTC", 
+        "configuration": "SPCTconfigJ052A_2PTC"
+    }, 
+    "572": {
+        "phases": "BS", 
+        "from": "nP5075203_1_T_09808", 
+        "name": "SPCTP5075203B", 
+        "object": "transformer", 
+        "to": "ntpmP5075203B", 
+        "configuration": "SPCTconfigP5075203B"
+    }, 
+    "571": {
+        "phases": "CS", 
+        "from": "nP5301145_09808", 
+        "name": "SPCTP5301145C", 
+        "object": "transformer", 
+        "to": "ntpmP5301145C", 
+        "configuration": "SPCTconfigP5301145C"
+    }, 
+    "570": {
+        "phases": "BS", 
+        "from": "nP5301145_09808", 
+        "name": "SPCTP5301145B", 
+        "object": "transformer", 
+        "to": "ntpmP5301145B", 
+        "configuration": "SPCTconfigP5301145B"
+    }, 
+    "577": {
+        "phases": "BS", 
+        "from": "nV5079055_09808", 
+        "name": "SPCTV5079055B", 
+        "object": "transformer", 
+        "to": "ntpmV5079055B", 
+        "configuration": "SPCTconfigV5079055B"
+    }, 
+    "576": {
+        "phases": "AS", 
+        "from": "nB5301147_F_09808", 
+        "name": "SPCTB5301147A", 
+        "object": "transformer", 
+        "to": "ntpmB5301147A", 
+        "configuration": "SPCTconfigB5301147A"
+    }, 
+    "575": {
+        "phases": "AS", 
+        "from": "nJ052A_2_F_09808", 
+        "name": "SPCTJ052A_2PTA", 
+        "object": "transformer", 
+        "to": "ntpmJ052A_2PTA", 
+        "configuration": "SPCTconfigJ052A_2PTA"
+    }, 
+    "574": {
+        "phases": "BS", 
+        "from": "nJ052A_2_F_09808", 
+        "name": "SPCTJ052A_2PTB", 
+        "object": "transformer", 
+        "to": "ntpmJ052A_2PTB", 
+        "configuration": "SPCTconfigJ052A_2PTB"
+    }, 
+    "60": {
+        "name": "DEFAULTconf", 
+        "object": "line_configuration", 
+        "spacing": "DEFAULTohsps", 
+        "conductor_N": "ACSR_#6", 
+        "conductor_A": "ACSR_#6", 
+        "conductor_C": "ACSR_#6", 
+        "conductor_B": "ACSR_#6"
+    }, 
+    "61": {
+        "name": "CU_3C_1_0conf", 
+        "object": "line_configuration", 
+        "spacing": "STANDARD_3Wohsps", 
+        "conductor_N": "NONE", 
+        "conductor_A": "CU_1_0", 
+        "conductor_C": "CU_1_0", 
+        "conductor_B": "CU_1_0"
+    }, 
+    "258": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5365275_1_09808"
+    }, 
+    "259": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262336_09808"
+    }, 
+    "64": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_3C_1_0_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "65": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "DEFAULTsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "66": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_1C_#2_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "67": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_3C_#2_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "252": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885515_09808"
+    }, 
+    "69": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "BUSsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "250": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261282_09808"
+    }, 
+    "251": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5435106_1_T_09808"
+    }, 
+    "256": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5398622_B_09808"
+    }, 
+    "257": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27216717_09808"
+    }, 
+    "254": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261590_09808"
+    }, 
+    "255": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261274_09808"
+    }, 
+    "603": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261411_09808", 
+        "name": "GS2219_3", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS2219_3_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "602": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261132_09808", 
+        "name": "27261132_09808$J052A_3P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ052A_3P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "508": {
+        "phases": "ABC", 
+        "from": "n27261582_09808", 
+        "name": "27261582$GS1927_2", 
+        "object": "underground_line", 
+        "to": "nGS1927_2_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "509": {
+        "phases": "ABC", 
+        "from": "nGS0862_4_09808", 
+        "name": "GS0862_4$GS0850_1", 
+        "object": "underground_line", 
+        "to": "nGS0850_1_09808", 
+        "length": "540.999984", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "506": {
+        "phases": "ABC", 
+        "from": "n27261411_09808", 
+        "name": "GS2219_2$27261411", 
+        "object": "underground_line", 
+        "to": "nGS2219_2_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "507": {
+        "phases": "ABC", 
+        "from": "nPME1143_3_09808", 
+        "name": "PME1143_3$PME1143_4", 
+        "object": "underground_line", 
+        "to": "nPME1143_4_09808", 
+        "length": "50.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "504": {
+        "phases": "ABC", 
+        "from": "n27261782_09808", 
+        "name": "27261782$27261798", 
+        "object": "underground_line", 
+        "to": "n27261798_09808", 
+        "length": "24.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "505": {
+        "phases": "ABC", 
+        "from": "n95856923_09808_1", 
+        "name": "J638A_1P$95856923", 
+        "object": "underground_line", 
+        "to": "nJ638A_1P_09808", 
+        "length": "130.999997", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "502": {
+        "phases": "ABC", 
+        "from": "n09808", 
+        "name": "GS2219_4$09808", 
+        "object": "underground_line", 
+        "to": "nGS2219_4_09808", 
+        "length": "1364.999957", 
+        "configuration": "DEFAULTphABC"
+    }, 
+    "503": {
+        "phases": "ABC", 
+        "from": "n27261798_09808", 
+        "name": "27261798$27261790", 
+        "object": "underground_line", 
+        "to": "n27261790_09808", 
+        "length": "26.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "500": {
+        "phases": "ABC", 
+        "from": "nOS1931_3_09808", 
+        "name": "OS1931_3$ND27301527", 
+        "object": "underground_line", 
+        "to": "nND27301527_09808", 
+        "length": "827.999974", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "501": {
+        "phases": "ABC", 
+        "from": "n27262386_09808_1", 
+        "name": "27262386$J637A_1P", 
+        "object": "underground_line", 
+        "to": "nJ637A_1P_09808", 
+        "length": "4.000000", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "630": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261598_09808", 
+        "name": "GS1927_4", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS1927_4_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "631": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS1927_1_09808", 
+        "name": "GS1927_1_09808$27261582_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27261582_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "632": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n95856888_09808_1", 
+        "name": "95856888", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n95856888_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "633": {
+        "phases": "A", 
+        "from": "nB5301147_1_09808", 
+        "name": "B5301147_1", 
+        "object": "switch", 
+        "to": "nB5301147_F_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "469": {
+        "phases": "ABC", 
+        "from": "nPME1143_3_09808_1", 
+        "name": "PME1143_3$ND27301268", 
+        "object": "underground_line", 
+        "to": "nND27301268_09808", 
+        "length": "647.999980", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "468": {
+        "phases": "ABC", 
+        "from": "nJ637A_3P_09808", 
+        "name": "95856923$J637A_3P", 
+        "object": "underground_line", 
+        "to": "n95856923_09808", 
+        "length": "8.000000", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "636": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5336835_1_09808", 
+        "name": "P5336835_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5336835_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "637": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5161347_1_09808", 
+        "name": "P5161347_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5161347_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "465": {
+        "phases": "ABC", 
+        "from": "nND164886054_09808", 
+        "name": "P5130856_1$ND164886054", 
+        "object": "underground_line", 
+        "to": "nP5130856_1_09808", 
+        "length": "331.999990", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "464": {
+        "phases": "ABC", 
+        "from": "nJ141A_3P_09808", 
+        "name": "J141A_3P$PME1142_4", 
+        "object": "underground_line", 
+        "to": "nPME1142_4_09808", 
+        "length": "213.999993", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "467": {
+        "phases": "ABC", 
+        "from": "nND27301292_09808", 
+        "name": "ND27301292$P5379641_1", 
+        "object": "underground_line", 
+        "to": "nP5379641_1_09808", 
+        "length": "134.999997", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "466": {
+        "phases": "ABC", 
+        "from": "nP5398622_B_09808", 
+        "name": "P5398623_1$P5398622_B", 
+        "object": "underground_line", 
+        "to": "nP5398623_1_09808", 
+        "length": "207.999993", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "461": {
+        "phases": "ABC", 
+        "from": "nOS1931_1_09808_1", 
+        "name": "OS1931_1$P5161135", 
+        "object": "underground_line", 
+        "to": "nP5161135_09808", 
+        "length": "16.000000", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "460": {
+        "phases": "ABC", 
+        "from": "nV5161137T1_09808", 
+        "name": "V5161137T1$P5435787", 
+        "object": "underground_line", 
+        "to": "nP5435787_09808", 
+        "length": "883.999970", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "463": {
+        "phases": "ABC", 
+        "from": "n27218175_09808", 
+        "name": "27218175$P5301145", 
+        "object": "underground_line", 
+        "to": "nP5301145_09808", 
+        "length": "30.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "462": {
+        "phases": "ABC", 
+        "from": "nGS2219_2_09808_1", 
+        "name": "GS2219_2$27262176", 
+        "object": "underground_line", 
+        "to": "n27262176_09808", 
+        "length": "1920.999938", 
+        "configuration": "DEFAULTphABC"
+    }, 
+    "168": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261598_09808"
+    }, 
+    "169": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5130856_1_T_09808"
+    }, 
+    "164": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_1_09808_1"
+    }, 
+    "165": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261290_09808"
+    }, 
+    "166": {
+        "phases": "AN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nV5071124_09808"
+    }, 
+    "167": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME2088_1_09808"
+    }, 
+    "160": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n95856923_09808_1"
+    }, 
+    "161": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ052A_3P_09808"
+    }, 
+    "162": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5398622_B_T_09808"
+    }, 
+    "163": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27258622_09808"
+    }, 
+    "600": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nJ052A_1P_09808", 
+        "name": "J052A_1P_09808$27261124_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27261124_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "9": {
+        "geometric_mean_radius": "0.044183", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.072701", 
+        "name": "CLP_1500_33KV"
+    }, 
+    "647": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5510319_1_09808", 
+        "name": "P5510319_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5510319_1_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "646": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261798_09808", 
+        "name": "27261798_09808$J638A_2_F_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ638A_2_F_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "649": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n164885515_09808", 
+        "name": "164885515_09808$GS0862_2_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS0862_2_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "648": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nGS1927_2_09808", 
+        "name": "GS1927_2_09808$GS1927_2_09808__1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nGS1927_2_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "357": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5379641C"
+    }, 
+    "356": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5506374A"
+    }, 
+    "355": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5301145A"
+    }, 
+    "354": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5071124A"
+    }, 
+    "353": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5301145C"
+    }, 
+    "352": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5301145B"
+    }, 
+    "351": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5312089B"
+    }, 
+    "350": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5312089C"
+    }, 
+    "359": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5506374B"
+    }, 
+    "358": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5506374C"
+    }, 
+    "216": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5365275_1_T_09808"
+    }, 
+    "217": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5510319_1_09808"
+    }, 
+    "214": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS2219_3_09808"
+    }, 
+    "215": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_2_09808"
+    }, 
+    "212": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1143_4_09808_1"
+    }, 
+    "213": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0491_1_09808"
+    }, 
+    "210": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885533_09808"
+    }, 
+    "211": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5398622_T_F_09808"
+    }, 
+    "218": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME2088_4_09808_1"
+    }, 
+    "219": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885524_09808"
+    }, 
+    "289": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27259965_09808"
+    }, 
+    "288": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5398623_1_T_09808"
+    }, 
+    "4": {
+        "omftype": "module", 
+        "argument": "generators"
+    }, 
+    "281": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0862_1_09808"
+    }, 
+    "280": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5398623_1_09808"
+    }, 
+    "283": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS2219_4_09808"
+    }, 
+    "282": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262386_09808_1"
+    }, 
+    "285": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5379641_1_09808"
+    }, 
+    "284": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5161135_09808"
+    }, 
+    "287": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS1927_2_09808"
+    }, 
+    "286": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1142_2_09808"
+    }, 
+    "263": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5161347_1_09808"
+    }, 
+    "262": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0862_3_09808"
+    }, 
+    "261": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME2088_3_09808"
+    }, 
+    "260": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262356_09808"
+    }, 
+    "267": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nBS2418_L_09808"
+    }, 
+    "266": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1143_1_09808"
+    }, 
+    "265": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1143_3_09808"
+    }, 
+    "264": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27262386_09808"
+    }, 
+    "269": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5506374_1_T_09808"
+    }, 
+    "268": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5301145_09808"
+    }, 
+    "59": {
+        "distance_AN": "40.000000", 
+        "name": "STANDARD_3Wohsps", 
+        "distance_CN": "41.073701", 
+        "object": "line_spacing", 
+        "distance_BC": "3.000000", 
+        "distance_AB": "6.330000", 
+        "distance_BN": "40.497764", 
+        "distance_AC": "9.330000"
+    }, 
+    "58": {
+        "distance_AN": "3.000000", 
+        "name": "3W_1N_12_16KVohsps", 
+        "distance_CN": "6.330000", 
+        "object": "line_spacing", 
+        "distance_BC": "3.000000", 
+        "distance_AB": "6.330000", 
+        "distance_BN": "3.330000", 
+        "distance_AC": "9.330000"
+    }, 
+    "55": {
+        "distance_AN": "40.000000", 
+        "name": "3W_12_16KVohsps", 
+        "distance_CN": "41.073701", 
+        "object": "line_spacing", 
+        "distance_BC": "3.000000", 
+        "distance_AB": "6.330000", 
+        "distance_BN": "40.497764", 
+        "distance_AC": "9.330000"
+    }, 
+    "54": {
+        "distance_AN": "3.000000", 
+        "name": "STANDARD_4Wohsps", 
+        "distance_CN": "6.330000", 
+        "object": "line_spacing", 
+        "distance_BC": "3.000000", 
+        "distance_AB": "6.330000", 
+        "distance_BN": "3.330000", 
+        "distance_AC": "9.330000"
+    }, 
+    "57": {
+        "distance_AN": "3.000000", 
+        "name": "STANDARD_3W_1Nohsps", 
+        "distance_CN": "6.330000", 
+        "object": "line_spacing", 
+        "distance_BC": "3.000000", 
+        "distance_AB": "6.330000", 
+        "distance_BN": "3.330000", 
+        "distance_AC": "9.330000"
+    }, 
+    "56": {
+        "distance_AN": "12.300000", 
+        "name": "DEFAULTohsps", 
+        "distance_CN": "6.300000", 
+        "object": "line_spacing", 
+        "distance_BC": "9.300000", 
+        "distance_AB": "9.300000", 
+        "distance_BN": "3.000000", 
+        "distance_AC": "18.600000"
+    }, 
+    "51": {
+        "name": "CLP_3C_1_0_5_12_16KVcond", 
+        "conductor_resistance": "7.0483700000000005e-01", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "2.4225000000000001e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "50": {
+        "name": "CLP_3C_1000_5_12_16KVcond", 
+        "conductor_resistance": "9.5686999999999994e-02", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "4.6450000000000003e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "53": {
+        "name": "CLP_1C_#2_5_12_16KVcond", 
+        "conductor_resistance": "1.2968740000000001e+00", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "2.2193000000000001e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "52": {
+        "name": "CLP_1C_1000_5_12_16KVcond", 
+        "conductor_resistance": "3.5327300000000000e-01", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "4.6450000000000003e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "537": {
+        "phases": "CS", 
+        "from": "nP5435787_09808", 
+        "name": "SPCTP5435787C", 
+        "object": "transformer", 
+        "to": "ntpmP5435787C", 
+        "configuration": "SPCTconfigP5435787C"
+    }, 
+    "536": {
+        "phases": "AS", 
+        "from": "nP5365275_1_T_09808", 
+        "name": "SPCTP5365275A", 
+        "object": "transformer", 
+        "to": "ntpmP5365275A", 
+        "configuration": "SPCTconfigP5365275A"
+    }, 
+    "535": {
+        "phases": "AS", 
+        "from": "nV5071124_09808", 
+        "name": "SPCTV5071124A", 
+        "object": "transformer", 
+        "to": "ntpmV5071124A", 
+        "configuration": "SPCTconfigV5071124A"
+    }, 
+    "63": {
+        "distance_BC": "0.5", 
+        "object": "line_spacing", 
+        "name": "CLP_1C_1000_5_12_16KVsps", 
+        "distance_AB": "0.05", 
+        "distance_AC": "1.0"
+    }, 
+    "533": {
+        "phases": "CS", 
+        "from": "nP5312090_1_T_09808", 
+        "name": "SPCTP5312090C", 
+        "object": "transformer", 
+        "to": "ntpmP5312090C", 
+        "configuration": "SPCTconfigP5312090C"
+    }, 
+    "532": {
+        "phases": "CS", 
+        "from": "nP5336835_1_T_09808", 
+        "name": "SPCTP5336835C", 
+        "object": "transformer", 
+        "to": "ntpmP5336835C", 
+        "configuration": "SPCTconfigP5336835C"
+    }, 
+    "531": {
+        "phases": "AS", 
+        "from": "nP5312090_1_T_09808", 
+        "name": "SPCTP5312090A", 
+        "object": "transformer", 
+        "to": "ntpmP5312090A", 
+        "configuration": "SPCTconfigP5312090A"
+    }, 
+    "530": {
+        "phases": "CS", 
+        "from": "nP5379641_1_T_09808", 
+        "name": "SPCTP5379641C", 
+        "object": "transformer", 
+        "to": "ntpmP5379641C", 
+        "configuration": "SPCTconfigP5379641C"
+    }, 
+    "539": {
+        "phases": "BS", 
+        "from": "nP5161347_1_T_09808", 
+        "name": "SPCTP5161347B", 
+        "object": "transformer", 
+        "to": "ntpmP5161347B", 
+        "configuration": "SPCTconfigP5161347B"
+    }, 
+    "538": {
+        "phases": "AS", 
+        "from": "nP5435787_09808", 
+        "name": "SPCTP5435787A", 
+        "object": "transformer", 
+        "to": "ntpmP5435787A", 
+        "configuration": "SPCTconfigP5435787A"
+    }, 
+    "115": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5398622C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "114": {
+        "name": "SPCTconfigP5398622B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "117": {
+        "name": "SPCTconfigP5435106B", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerB_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "116": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5435106C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "111": {
+        "name": "SPCTconfigP5336835A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "110": {
+        "powerC_rating": "5000", 
+        "name": "SPCTconfigP5336835C", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "power_rating": "5000"
+    }, 
+    "113": {
+        "name": "SPCTconfigP5398622A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "112": {
+        "name": "SPCTconfigB5301147A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "3000", 
+        "power_rating": "3000"
+    }, 
+    "119": {
+        "name": "SPCTconfigV5079055A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "118": {
+        "name": "SPCTconfigP5435106A", 
+        "primary_voltage": "7199.55785679", 
+        "install_type": "POLETOP", 
+        "object": "transformer_configuration", 
+        "secondary_voltage": "120", 
+        "connect_type": "SINGLE_PHASE_CENTER_TAPPED", 
+        "impedance": "0.00033+0.0022j", 
+        "powerA_rating": "5000", 
+        "power_rating": "5000"
+    }, 
+    "429": {
+        "phases": "AS", 
+        "power_12": "5533.333+4150.000j", 
+        "name": "ntpnV5079055A", 
+        "parent": "ntpmV5079055A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "428": {
+        "phases": "CS", 
+        "power_12": "118666.667+89000.000j", 
+        "name": "ntpnP5312089C", 
+        "parent": "ntpmP5312089C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "534": {
+        "phases": "BS", 
+        "from": "nP5312090_1_T_09808", 
+        "name": "SPCTP5312090B", 
+        "object": "transformer", 
+        "to": "ntpmP5312090B", 
+        "configuration": "SPCTconfigP5312090B"
+    }, 
+    "421": {
+        "phases": "BS", 
+        "power_12": "18800.000+14100.000j", 
+        "name": "ntpnP5161347B", 
+        "parent": "ntpmP5161347B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "420": {
+        "phases": "CS", 
+        "power_12": "18800.000+14100.000j", 
+        "name": "ntpnP5161347C", 
+        "parent": "ntpmP5161347C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "423": {
+        "phases": "CS", 
+        "power_12": "1333.333+1000.000j", 
+        "name": "ntpnV5161137T1C", 
+        "parent": "ntpmV5161137T1C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "422": {
+        "phases": "AS", 
+        "power_12": "18800.000+14100.000j", 
+        "name": "ntpnP5161347A", 
+        "parent": "ntpmP5161347A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "425": {
+        "phases": "BS", 
+        "power_12": "1333.333+1000.000j", 
+        "name": "ntpnV5161137T1B", 
+        "parent": "ntpmV5161137T1B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "424": {
+        "phases": "BS", 
+        "power_12": "61333.333+46000.000j", 
+        "name": "ntpnP5075203B", 
+        "parent": "ntpmP5075203B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "427": {
+        "phases": "AS", 
+        "power_12": "2400.000+1800.000j", 
+        "name": "ntpnB5301147A", 
+        "parent": "ntpmB5301147A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "426": {
+        "phases": "AS", 
+        "power_12": "118666.667+89000.000j", 
+        "name": "ntpnP5312089A", 
+        "parent": "ntpmP5312089A", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "308": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5336835A"
+    }, 
+    "309": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5336835B"
+    }, 
+    "300": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nND69081020_09808"
+    }, 
+    "301": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmJ052A_2PTA"
+    }, 
+    "302": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5075203B"
+    }, 
+    "303": {
+        "phases": "CS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmJ052A_2PTC"
+    }, 
+    "304": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmJ052A_2PTB"
+    }, 
+    "305": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5379641B"
+    }, 
+    "306": {
+        "phases": "AS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmV5079055A"
+    }, 
+    "307": {
+        "phases": "BS", 
+        "object": "triplex_meter", 
+        "nominal_voltage": "120.0", 
+        "name": "ntpmP5161347B"
+    }, 
+    "568": {
+        "phases": "AS", 
+        "from": "nV5161137T1_09808", 
+        "name": "SPCTV5161137T1A", 
+        "object": "transformer", 
+        "to": "ntpmV5161137T1A", 
+        "configuration": "SPCTconfigV5161137T1A"
+    }, 
+    "569": {
+        "phases": "AS", 
+        "from": "nP5301145_09808", 
+        "name": "SPCTP5301145A", 
+        "object": "transformer", 
+        "to": "ntpmP5301145A", 
+        "configuration": "SPCTconfigP5301145A"
+    }, 
+    "560": {
+        "phases": "CS", 
+        "from": "nP5398622_T_F_09808", 
+        "name": "SPCTP5398622C", 
+        "object": "transformer", 
+        "to": "ntpmP5398622C", 
+        "configuration": "SPCTconfigP5398622C"
+    }, 
+    "561": {
+        "phases": "AS", 
+        "from": "nP5130856_1_T_09808", 
+        "name": "SPCTP5130856A", 
+        "object": "transformer", 
+        "to": "ntpmP5130856A", 
+        "configuration": "SPCTconfigP5130856A"
+    }, 
+    "562": {
+        "phases": "CS", 
+        "from": "nP5130856_1_T_09808", 
+        "name": "SPCTP5130856C", 
+        "object": "transformer", 
+        "to": "ntpmP5130856C", 
+        "configuration": "SPCTconfigP5130856C"
+    }, 
+    "563": {
+        "phases": "BS", 
+        "from": "nP5130856_1_T_09808", 
+        "name": "SPCTP5130856B", 
+        "object": "transformer", 
+        "to": "ntpmP5130856B", 
+        "configuration": "SPCTconfigP5130856B"
+    }, 
+    "564": {
+        "phases": "CS", 
+        "from": "nV5161137T1_09808", 
+        "name": "SPCTV5161137T1C", 
+        "object": "transformer", 
+        "to": "ntpmV5161137T1C", 
+        "configuration": "SPCTconfigV5161137T1C"
+    }, 
+    "565": {
+        "phases": "BS", 
+        "from": "nP5365275_1_T_09808", 
+        "name": "SPCTP5365275B", 
+        "object": "transformer", 
+        "to": "ntpmP5365275B", 
+        "configuration": "SPCTconfigP5365275B"
+    }, 
+    "566": {
+        "phases": "AS", 
+        "from": "nP5075203_1_T_09808", 
+        "name": "SPCTP5075203A", 
+        "object": "transformer", 
+        "to": "ntpmP5075203A", 
+        "configuration": "SPCTconfigP5075203A"
+    }, 
+    "567": {
+        "phases": "CS", 
+        "from": "nP5075203_1_T_09808", 
+        "name": "SPCTP5075203C", 
+        "object": "transformer", 
+        "to": "ntpmP5075203C", 
+        "configuration": "SPCTconfigP5075203C"
+    }, 
+    "229": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS1927_2_09808_1"
+    }, 
+    "228": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nPME1142_1_09808"
+    }, 
+    "227": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_3_09808"
+    }, 
+    "226": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nOS1931_1_09808_1"
+    }, 
+    "225": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS1927_1_09808"
+    }, 
+    "224": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nGS0862_4_09808"
+    }, 
+    "223": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nV5079055_09808"
+    }, 
+    "222": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261411_09808"
+    }, 
+    "221": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n11319_F"
+    }, 
+    "220": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5412515_1_09808"
+    }, 
+    "391": {
+        "phases": "CS", 
+        "power_12": "54400.000+40800.000j", 
+        "name": "ntpnP5130856C", 
+        "parent": "ntpmP5130856C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "390": {
+        "phases": "BS", 
+        "power_12": "54400.000+40800.000j", 
+        "name": "ntpnP5130856B", 
+        "parent": "ntpmP5130856B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "151": {
+        "glmIndex": 151, 
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "2000", 
+        "name": "nND27301292_09808"
+    }, 
+    "150": {
+        "glmIndex": 150, 
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "6999", 
+        "name": "nP5336835_1_T_09808"
+    }, 
+    "153": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5510319_1_T_09808"
+    }, 
+    "152": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5398622_A_09808"
+    }, 
+    "155": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27261124_09808"
+    }, 
+    "154": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n27258606_09808"
+    }, 
+    "157": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nJ052A_2_F_09808"
+    }, 
+    "156": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "n164885506_09808"
+    }, 
+    "159": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5379641_1_T_09808"
+    }, 
+    "158": {
+        "phases": "ABCN", 
+        "object": "node", 
+        "nominal_voltage": "7199.55785679", 
+        "name": "nP5130856_1_09808"
+    }, 
+    "609": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "nP5398622_A_09808", 
+        "name": "P5398622_A", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nP5398622_B_T_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "608": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27216701_09808", 
+        "name": "27216701_09808$OS1931_2_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nOS1931_2_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "634": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261290_09808", 
+        "name": "27261290_09808$J637A_2_F_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ637A_2_F_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "399": {
+        "phases": "CS", 
+        "power_12": "121333.333+91000.000j", 
+        "name": "ntpnP5312090C", 
+        "parent": "ntpmP5312090C", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "635": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27262386_09808", 
+        "name": "27262386", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n27262386_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "398": {
+        "phases": "BS", 
+        "power_12": "121333.333+91000.000j", 
+        "name": "ntpnP5312090B", 
+        "parent": "ntpmP5312090B", 
+        "object": "triplex_node", 
+        "nominal_voltage": "120.0"
+    }, 
+    "48": {
+        "name": "CLP_3C_350_5_12_16KVcond", 
+        "conductor_resistance": "2.2119600000000000e-01", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "3.2225999999999999e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "49": {
+        "name": "BUScond", 
+        "conductor_resistance": "0.0000000000000000e+00", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "3.894638", 
+        "outer_diameter": "2.2193000000000001e+01", 
+        "neutral_strands": "7", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "1.1683914000000000e+01", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "46": {
+        "name": "CLP_3C_750_5_12_16KVcond", 
+        "conductor_resistance": "1.2452700000000000e-01", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "4.1878000000000000e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "47": {
+        "name": "DEFAULTcond", 
+        "conductor_resistance": "8.8234999999999994e-02", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "7.26433333333", 
+        "outer_diameter": "2.9792999999999999e+01", 
+        "neutral_strands": "7", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "2.1792999999999999e+01", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "44": {
+        "geometric_mean_radius": "0.003940", 
+        "object": "overhead_line_conductor", 
+        "resistance": "3.820000", 
+        "name": "CW_8A_COPPERWELD"
+    }, 
+    "45": {
+        "name": "CLP_3C_#2_5_12_16KVcond", 
+        "conductor_resistance": "1.1096490000000001e+00", 
+        "object": "underground_line_conductor", 
+        "neutral_gmr": "0.0208", 
+        "outer_diameter": "2.2193000000000001e+01", 
+        "neutral_strands": "10", 
+        "neutral_resistance": "14.872", 
+        "neutral_diameter": "0.0640837", 
+        "conductor_diameter": "2.7000000000000000e+01", 
+        "conductor_gmr": "9.0"
+    }, 
+    "42": {
+        "geometric_mean_radius": "0.038083", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.108800", 
+        "name": "ACSR_954"
+    }, 
+    "43": {
+        "geometric_mean_radius": "0.000018", 
+        "object": "overhead_line_conductor", 
+        "resistance": "2.010000", 
+        "name": "AW_3C_7#6_ALUMOWELD"
+    }, 
+    "40": {
+        "geometric_mean_radius": "0.031137", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.138967", 
+        "name": "CLP_750_5_12_16KV"
+    }, 
+    "41": {
+        "geometric_mean_radius": "0.028999", 
+        "object": "overhead_line_conductor", 
+        "resistance": "0.196018", 
+        "name": "DEFAULT"
+    }, 
+    "638": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n95856923_09808", 
+        "name": "95856923", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "n95856923_09808_1", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "5": {
+        "omftype": "module", 
+        "argument": "tape"
+    }, 
+    "639": {
+        "phase_B_state": "CLOSED", 
+        "phases": "ABC", 
+        "from": "n27261790_09808", 
+        "name": "27261790_09808$J638A_3P_09808_1", 
+        "phase_C_state": "CLOSED", 
+        "object": "switch", 
+        "to": "nJ638A_3P_09808", 
+        "phase_A_state": "CLOSED", 
+        "operating_mode": "BANKED"
+    }, 
+    "489": {
+        "phases": "ABC", 
+        "from": "nJ055A_2P_09808", 
+        "name": "J055A_2P$ND164886054", 
+        "object": "underground_line", 
+        "to": "nND164886054_09808", 
+        "length": "609.999980", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "488": {
+        "phases": "ABC", 
+        "from": "nND164886054_09808", 
+        "name": "ND164886054$27262356", 
+        "object": "underground_line", 
+        "to": "n27262356_09808_1", 
+        "length": "436.999987", 
+        "configuration": "CLP_3C_#2_5_12_16KVphABC"
+    }, 
+    "487": {
+        "phases": "ABC", 
+        "from": "n27261140_09808", 
+        "name": "27261140$27261132", 
+        "object": "underground_line", 
+        "to": "n27261132_09808", 
+        "length": "26.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "486": {
+        "phases": "ABC", 
+        "from": "nPME2088_1_09808", 
+        "name": "PME2088_1$ND27301292", 
+        "object": "underground_line", 
+        "to": "nND27301292_09808", 
+        "length": "37.000000", 
+        "configuration": "CLP_3C_350_5_12_16KVphABC"
+    }, 
+    "485": {
+        "phases": "ABC", 
+        "from": "n164885633_09808", 
+        "name": "164885641$164885633", 
+        "object": "underground_line", 
+        "to": "n164885641_09808", 
+        "length": "26.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "484": {
+        "phases": "ABC", 
+        "from": "nJ638A_3P_09808", 
+        "name": "J638A_3P$95856888", 
+        "object": "underground_line", 
+        "to": "n95856888_09808_1", 
+        "length": "171.999993", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "483": {
+        "phases": "ABC", 
+        "from": "n27259949_09808", 
+        "name": "27259949$27259965", 
+        "object": "underground_line", 
+        "to": "n27259965_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "482": {
+        "phases": "ABC", 
+        "from": "n27258622_09808", 
+        "name": "27258622$GS0491_5", 
+        "object": "underground_line", 
+        "to": "nGS0491_5_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "481": {
+        "phases": "ABC", 
+        "from": "n27261274_09808", 
+        "name": "27261274$27261290", 
+        "object": "underground_line", 
+        "to": "n27261290_09808", 
+        "length": "24.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "480": {
+        "phases": "ABC", 
+        "from": "n27258606_09808", 
+        "name": "GS0491_1$27258606", 
+        "object": "underground_line", 
+        "to": "nGS0491_1_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "472": {
+        "phases": "ABC", 
+        "from": "nGS0491_1_09808_1", 
+        "name": "GS0491_1$27262386", 
+        "object": "underground_line", 
+        "to": "n27262386_09808", 
+        "length": "460.999987", 
+        "configuration": "CLP_3C_1_0_5_12_16KVphABC"
+    }, 
+    "473": {
+        "phases": "ABC", 
+        "from": "nGS0491_3_09808", 
+        "name": "GS0491_3$27258622", 
+        "object": "underground_line", 
+        "to": "n27258622_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "470": {
+        "phases": "ABC", 
+        "from": "nGS1927_2_09808_1", 
+        "name": "GS1927_2$V5161137T1", 
+        "object": "underground_line", 
+        "to": "nV5161137T1_09808", 
+        "length": "159.999993", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }, 
+    "471": {
+        "phases": "ABC", 
+        "from": "n27261124_09808", 
+        "name": "27261124$27261140", 
+        "object": "underground_line", 
+        "to": "n27261140_09808", 
+        "length": "24.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "476": {
+        "phases": "ABC", 
+        "from": "n164885506_09808", 
+        "name": "164885506$164885515", 
+        "object": "underground_line", 
+        "to": "n164885515_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "477": {
+        "phases": "ABC", 
+        "from": "n27216717_09808", 
+        "name": "27216717$OS1931_5", 
+        "object": "underground_line", 
+        "to": "nOS1931_5_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "474": {
+        "phases": "ABC", 
+        "from": "nGS0862_3_09808", 
+        "name": "GS0862_3$ND164886126", 
+        "object": "underground_line", 
+        "to": "nND164886126_09808", 
+        "length": "84.999997", 
+        "configuration": "CLP_3C_1000_5_12_16KVphABC"
+    }, 
+    "475": {
+        "phases": "ABC", 
+        "from": "nGS1927_2_09808", 
+        "name": "GS1927_2$27261590", 
+        "object": "underground_line", 
+        "to": "n27261590_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "478": {
+        "phases": "ABC", 
+        "from": "n27258606_09808", 
+        "name": "27258606$GS0491_3", 
+        "object": "underground_line", 
+        "to": "nGS0491_3_09808", 
+        "length": "25.000000", 
+        "configuration": "BUSphABC"
+    }, 
+    "479": {
+        "phases": "ABC", 
+        "from": "nGS2219_3_09808", 
+        "name": "GS2219_3$GS1927_1", 
+        "object": "underground_line", 
+        "to": "nGS1927_1_09808", 
+        "length": "1730.999944", 
+        "configuration": "CLP_3C_750_5_12_16KVphABC"
+    }
+}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Project Detail {{projectName}} {% endblock %}  
+{% block css-head %}{% endblock %}
+{% block js-head %}{% endblock %}
+{% block content %}
+  <ol class="breadcrumb" style="margin-left:-15px;margin-right:-15px;margin-bottom: 5px">
+    <li><a href="/">Home</a></li>
+    <li><a href="{% url 'datafile:projects_overview' %}">Projects Overview</a></li>
+    <li><a href="{% url 'datafile:project_detail' projectName=projectName %}">Project Detail</a></li>
+    <li class="active">Generated GLM</li>
+  </ol>
+
+  {% for groupName, glmFiles in glmFilesGroup.items %}
+    <h3><span class="label label-success">{{groupName}}</span></h3>
+    <ul class="list-group">
+      {% for file in glmFiles %}
+        <li class="list-group-item">
+          <a href={{file.path}}><i class="fa fa-download" aria-hidden="true"></i></a>
+          {{file.name}}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+{% endblock %} 
+{% block js-foot %}{% endblock %}
+

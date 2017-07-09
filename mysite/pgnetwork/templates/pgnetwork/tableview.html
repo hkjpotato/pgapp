@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load render_bundle from webpack_loader %}
+{% load static %}
+{% block title %}React Table of {{feederName}}{% endblock %} 
+{% block css-head %}
+{% endblock %} 
+{% block js-head %}
+{% endblock %}
+
+{% block content %}
+<div id="root"></div>
+{% endblock %}
+
+
+
+{% block js-foot %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+  //django context
+  window.projectName = '{{projectName}}'
+  window.feederName = '{{feederName}}'
+  </script>
+  <!-- React -->
+  {% render_bundle 'manifest' %}
+  {% render_bundle 'vendor' %}
+  {% render_bundle 'pgnetwork_tableview' %}
+  <script type="text/javascript">
+  </script>
+{% endblock %}

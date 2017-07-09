@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{% block title %}{% endblock %}</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}/favicon.ico"/>
+
+<style type="text/css">
+  body {
+    padding-top: 50px;
+  }
+  .version {
+    color: lightgray;
+    font-weight: 700;
+    font-size: .8em;
+  }
+</style>
+{% block css-head %} {% endblock %}
+{% block js-head %} Tags that need to go up top  {% endblock js-head %}
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'datafile:projects_overview' %}">
+            <span><img src="https://prosumergrid.com/wp-content/uploads/2016/03/ProsumerGrid-trans.png" width="126" height="30" alt="Brand"></span>Project Explorer&nbsp;<span class="version">Beta</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div id="app" class="container-fluid">
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+{% block js-foot %}  All other javascript goes here {% endblock js-foot %}
+</body>
+</html>

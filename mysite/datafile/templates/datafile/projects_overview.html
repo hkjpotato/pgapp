@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}All Projects{% endblock %}
+{% block css-head %}{% endblock %}
+{% block js-head %}{% endblock %}  
+{% block content %}
+  <ol class="breadcrumb" style="margin-left:-15px;margin-right:-15px;margin-bottom: 5px">
+    <li><a href="/">Home</a></li>
+    <li class="active"><a href="{% url 'datafile:projects_overview' %}">Projects Overview</a></li>
+  </ol>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Type</th>
+          <th>Status</th>
+          <th>Created</th>
+          <th>DER Valuation</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for project in projects %}
+          <tr> 
+            <th>
+            <a href="{% url 'datafile:project_detail' projectName=project.projectName %}">
+              {{ project.projectName }}
+            </a>
+            </th>
+            <td>
+              {{ project.type }}
+            </td>
+            <td>{{ project.status }}</td>
+            <td>{{ project.created }}</td>
+            <td>
+              {% if project.der_valuation %}
+              <a href="#" target="_blank" class="btn btn-success btn-xs">
+                  <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              </a>
+              {% else %}
+              N/A
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <form class="navbar-form navbar-left" action="" method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <select class="form-control" id="project-type">
+          <option>Power Flow</option>
+          <option>DER Valuation</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="project_name" placeholder="New_Project_Name">
+      </div>
+      <button type="submit" class="btn btn-success">Create!</button>
+    </form>
+
+    {% if error_msg %}
+    <div class="alert alert-danger">
+      <strong>Sorry!</strong> {{error_msg}}
+    </div>
+    {% elif success_msg %}
+    <div class="alert alert-success">
+      <strong>Success!</strong> {{error_msg}}
+    </div>
+    {% endif %}
+{% endblock %}
+{% block js-foot %}{% endblock %}
+
